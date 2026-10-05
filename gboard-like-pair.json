@@ -1266,7 +1266,7 @@
           "key": {
             "design": {
               "label": {
-                "text": "絵記"
+                "text": "🙂記"
               },
               "color": "special"
             },
@@ -2803,10 +2803,82 @@
             "height": 1
           },
           "key": {
-            "type": "change_keyboard"
+            "design": {
+              "label": {
+                "system_image": "arrow.left.and.right"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "longpress_actions": {
+              "start": [
+                {
+                  "type": "toggle_cursor_bar"
+                }
+              ],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "←"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": -1
+                      }
+                    ]
+                  }
+                },
+                "type": "flick_variation"
+              },
+              {
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "→"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": 1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": 1
+                      }
+                    ]
+                  }
+                },
+                "type": "flick_variation"
+              }
+            ]
           },
           "specifier_type": "grid_fit",
-          "key_type": "system"
+          "key_type": "custom"
         },
         {
           "specifier": {
@@ -3333,7 +3405,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 1,
+            "x": 6.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3372,7 +3444,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 12,
+            "x": 17.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3411,7 +3483,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 23,
+            "x": 28.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3450,7 +3522,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 34,
+            "x": 39.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3489,7 +3561,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 45,
+            "x": 50.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3528,7 +3600,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 56,
+            "x": 61.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3567,7 +3639,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 67,
+            "x": 72.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3606,7 +3678,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 78,
+            "x": 83.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3645,7 +3717,7 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 89,
+            "x": 94.5,
             "y": 1,
             "width": 10,
             "height": 1
@@ -3684,48 +3756,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 100,
-            "y": 1,
-            "width": 10,
-            "height": 1
-          },
-          "key_type": "custom",
-          "key": {
-            "design": {
-              "label": {
-                "type": "main_and_directions",
-                "main": "-",
-                "directions": {
-                  "top": "/"
-                }
-              },
-              "color": "normal"
-            },
-            "press_actions": [
-              {
-                "type": "input",
-                "text": "-"
-              }
-            ],
-            "longpress_actions": {
-              "duration": "normal",
-              "start": [
-                {
-                  "type": "input",
-                  "text": "/"
-                }
-              ],
-              "repeat": []
-            },
-            "variations": []
-          }
-        },
-        {
-          "specifier_type": "grid_fit",
-          "specifier": {
-            "x": 21,
+            "x": 17.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3762,9 +3795,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 31,
+            "x": 28.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3801,9 +3834,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 41,
+            "x": 39.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3840,9 +3873,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 51,
+            "x": 50.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3879,9 +3912,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 61,
+            "x": 61.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3918,9 +3951,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 71,
+            "x": 72.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3957,9 +3990,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 81,
+            "x": 83.5,
             "y": 2,
-            "width": 9,
+            "width": 10,
             "height": 1
           },
           "key_type": "custom",
@@ -3998,7 +4031,7 @@
           "specifier": {
             "x": 0,
             "y": 2,
-            "width": 18,
+            "width": 15.5,
             "height": 1
           },
           "key_type": "system",
@@ -4009,9 +4042,9 @@
         {
           "specifier_type": "grid_fit",
           "specifier": {
-            "x": 93,
+            "x": 95.5,
             "y": 2,
-            "width": 18,
+            "width": 15.5,
             "height": 1
           },
           "key_type": "custom",
@@ -4182,7 +4215,11 @@
           "key": {
             "design": {
               "label": {
-                "text": "."
+                "type": "main_and_directions",
+                "main": ".",
+                "directions": {
+                  "top": "/"
+                }
               },
               "color": "normal"
             },
@@ -4194,7 +4231,12 @@
             ],
             "longpress_actions": {
               "duration": "normal",
-              "start": [],
+              "start": [
+                {
+                  "type": "input",
+                  "text": "/"
+                }
+              ],
               "repeat": []
             },
             "variations": []

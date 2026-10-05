@@ -1265,7 +1265,7 @@
         "key": {
           "design": {
             "label": {
-              "text": "絵記"
+              "text": "🙂記"
             },
             "color": "special"
           },
@@ -2802,10 +2802,82 @@
           "height": 1
         },
         "key": {
-          "type": "change_keyboard"
+          "design": {
+            "label": {
+              "system_image": "arrow.left.and.right"
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "toggle_cursor_bar"
+            }
+          ],
+          "longpress_actions": {
+            "start": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "repeat": []
+          },
+          "variations": [
+            {
+              "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "←"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "move_cursor",
+                    "count": -1
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": [
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ]
+                }
+              },
+              "type": "flick_variation"
+            },
+            {
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "→"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "move_cursor",
+                    "count": 1
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": [
+                    {
+                      "type": "move_cursor",
+                      "count": 1
+                    }
+                  ]
+                }
+              },
+              "type": "flick_variation"
+            }
+          ]
         },
         "specifier_type": "grid_fit",
-        "key_type": "system"
+        "key_type": "custom"
       },
       {
         "specifier": {
