@@ -2874,6 +2874,26 @@
                   }
                 },
                 "type": "flick_variation"
+              },
+              {
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "start": [],
+                    "repeat": []
+                  }
+                },
+                "type": "flick_variation"
               }
             ]
           },
