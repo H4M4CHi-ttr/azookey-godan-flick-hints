@@ -4220,7 +4220,29 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
