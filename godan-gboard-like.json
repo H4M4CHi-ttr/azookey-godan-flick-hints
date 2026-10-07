@@ -675,7 +675,44 @@
               }
             ]
           },
-          "variations": []
+          "variations": [
+            {
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "前"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "smart_move_cursor",
+                    "direction": "backward",
+                    "targets": [
+                      " ",
+                      "　",
+                      "、",
+                      "。",
+                      "！",
+                      "？",
+                      ".",
+                      ",",
+                      "．",
+                      "，",
+                      "!",
+                      "?",
+                      "\n"
+                    ]
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": []
+                }
+              },
+              "type": "flick_variation"
+            }
+          ]
         },
         "specifier_type": "grid_fit",
         "key_type": "custom"
@@ -1250,7 +1287,44 @@
               }
             ]
           },
-          "variations": []
+          "variations": [
+            {
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "次"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "smart_move_cursor",
+                    "direction": "forward",
+                    "targets": [
+                      " ",
+                      "　",
+                      "、",
+                      "。",
+                      "！",
+                      "？",
+                      ".",
+                      ",",
+                      "．",
+                      "，",
+                      "!",
+                      "?",
+                      "\n"
+                    ]
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": []
+                }
+              },
+              "type": "flick_variation"
+            }
+          ]
         },
         "specifier_type": "grid_fit",
         "key_type": "custom"
@@ -1300,6 +1374,31 @@
                     "type": "move_tab",
                     "tab_type": "system",
                     "identifier": "flick_numbersymbols"
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": []
+                }
+              },
+              "type": "flick_variation"
+            },
+            {
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "履歴"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "complete"
+                  },
+                  {
+                    "type": "move_tab",
+                    "tab_type": "system",
+                    "identifier": "clipboard_history_tab"
                   }
                 ],
                 "longpress_actions": {
@@ -2022,6 +2121,26 @@
                     "type": "move_tab",
                     "tab_type": "system",
                     "identifier": "flick_numbersymbols"
+                  }
+                ],
+                "longpress_actions": {
+                  "start": [],
+                  "repeat": []
+                }
+              },
+              "type": "flick_variation"
+            },
+            {
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "list.bullet"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "toggle_tab_bar"
                   }
                 ],
                 "longpress_actions": {
