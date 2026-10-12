@@ -1,12 +1,14 @@
-# azooKey GODAN・QWERTYカスタムタブ
+# azooKey GODAN・QWERTY・数字記号カスタムタブ
 
-azooKey公式のGODANを元にしたヒント付き配列、幅比較版、Androidの参考画像に寄せたGODAN・英字QWERTYセットを配布しています。
+azooKey公式のGODANを元にしたヒント付き配列、幅比較版、Androidの参考画像に寄せたGODAN・英字QWERTY・数字記号セットを配布しています。
 
-## 画像に寄せたGODAN・英字QWERTYセット
+## 画像に寄せたGODAN・英字QWERTY・数字記号セット
 
 **azooKey 3.1以降向け**です。英字QWERTYのShiftに、3.1で追加されたカスタムタブ用のShiftキーを使用しています。[公式リリース](https://github.com/azooKey/azooKey/releases/tag/v3.1)
 
-次のURLを「拡張」→「カスタムタブの管理」→「URLから読み込む」に貼り付けてください。GODANとQWERTYの2つのプレビューが表示されるので、**それぞれの「保存」を押してください**。「タブバーに追加」はオンのままにします。
+次のURLを「拡張」→「カスタムタブの管理」→「URLから読み込む」に貼り付けてください。GODAN・QWERTY・数字記号・追加記号の4つのプレビューが表示されるので、**4つすべての「保存」を押してください**。「タブバーに追加」はオンのままにします。
+
+以前の2タブセットを読み込み済みの場合も、このURLから再度読み込みます。既存のGODAN・QWERTYは同じ識別子で更新するため、上書き確認が出たら上書きしてください。数字記号・追加記号も保存すると、新しい切替先が使えるようになります。
 
 ```text
 https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/gboard-like-pair.json
@@ -14,22 +16,42 @@ https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/gbo
 
 [セットの読み込み用JSON](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/gboard-like-pair.json)
 
-保存後はタブバーで「GODAN（画像配置）」を選びます。左下の大きな「ABC」キーを押すと「QWERTY（英字）」へ、QWERTY下段の「五段」キーを押すとGODANへ戻ります。切替時は入力中の文字を確定します。
+保存後はタブバーで「GODAN（画像配置）」を選びます。左下の大きな「ABC」キーを押すと「QWERTY（英字）」へ、QWERTY下段の「五段」キーを押すとGODANへ戻ります。「123」の操作で「数字記号（画像配置）」へ移動し、そこから「あ」でGODAN、「A」でQWERTYへ戻れます。「#+=」は「記号（追加）」、追加記号の「?123」は数字記号へ切り替えます。切替時は入力中の文字を確定します。
 
 | タブ | 配置と操作 |
 | --- | --- |
 | GODAN（画像配置） | 均等な5列・5段。左列は小゛゜・左カーソル・🙂記・2段分のABC、右列は削除・右カーソル・空白・2段分の改行。中央の文字配列は公式GODANと同じです。 |
 | QWERTY（英字） | 英字キーを等幅にし、10・9・7個の各段を中央に揃えた逆ピラミッド配置です。Shift・削除と、下段の123・五段・カンマ・空白・ピリオド・左右カーソル・改行を備えています。アルファベットをそのまま入力する英字タブです。 |
+| 数字記号（画像配置） | 参考画像と同じ4段構成。上段に1〜0、2段目にハイフン・スラッシュ・コロン・セミコロン・丸括弧・ドル・アンパサンド・アットマーク・二重引用符を配置しています。下段には「あ」「A」、カーソル操作、カンマ、大きな空白、ピリオド、改行があります。 |
+| 記号（追加） | ハッシュ・パーセント・演算子・角括弧・波括弧・通貨記号などを配置した2枚目。下段の配置は数字記号と共通です。 |
 
 - **カーソル移動**：両タブの左右キーはタップで1文字、長押しで連続移動します。空白を長押しすると上部にカーソルバーが出ます。指を離してから、そのバーを左右にスワイプしてください。
 - **GODAN中央下の⇔**：タップまたは長押しでカーソルバーの表示を切り替えます。表示中にもう一度操作すると閉じます。左右フリックで1文字ずつ移動し、フリックした方向で押し続けると連続移動できます。
 - **⇔の上フリック**：クリップボードの内容をペーストします。本家と同じクリップボードのアイコンが候補に表示されます。ペーストにはazooKeyの「フルアクセス」が必要です。
 - **QWERTY空白の上スワイプ**：同じペースト操作を使えます。通常の空白入力と、長押しのカーソルバー表示はそのまま使えます。フルアクセスが必要です。
-- **数字・記号**：GODANの下フリックで1〜9、Nの下フリックで0を入力できます。QWERTYは各文字キーの長押しで小さく表示した数字・記号を入力します。
-- **ハイフンとスラッシュ**：QWERTYの `h` 長押しで `-`、ピリオド長押しで `/` を入力できます。
+- **数字・記号**：GODANの下フリックで1〜9、Nの下フリックで0を入力できます。QWERTYは各文字キーの上スワイプまたは長押しで、小さく表示した数字・記号を入力します。上スワイプは長押しが成立する前に行います。
+- **ハイフン・小数点・スラッシュ**：GODANのE下フリックで半角 `-`、O下フリックで半角 `.` を入力できます。QWERTYの `h` 上スワイプ・長押しで `-`、ピリオド上スワイプ・長押しで `/` を入力できます。
 - **英字の大文字**：QWERTYのShiftで次の入力を大文字にできます。Shiftの長押し・ダブルタップはCaps Lockに対応します。
 - **追加候補**：GODANの母音キーは画像に合わせて補助ヒントを減らしていますが、公式のフリック入力は保持しています。たとえばAの左「あっ」・上「あん」・右「ゃ」は引き続き使えます。
-- **標準タブ**：GODANの「🙂記」は絵文字タブ、右フリックは数字・記号タブへ移動します。「ABC」の上フリックも数字・記号タブです。QWERTYの「123」は標準の数字タブへ移動します。標準タブからこのセットへ戻る場合はタブバーから選べます。
+- **数字記号への切替**：GODANの「🙂記」右フリック・「ABC」上フリック、QWERTYの「123」は、このセットの数字記号タブへ移動します。
+- **標準タブ**：GODANの「🙂記」タップは標準の絵文字タブです。絵文字・クリップボード履歴からこのセットへ戻る場合はタブバーから選べます。
+
+### Gboard風の数字・記号配置
+
+![数字記号の配置図](previews/numbers-gboard-like.svg)
+
+数字記号の3段目は「#+=・•・…・?・!・'・削除」です。4段目は「あ・A・⇔・,・空白・.・改行」です。記号と数字は変換せず、そのまま入力します。
+
+![追加記号の配置図](previews/symbols-gboard-like.svg)
+
+追加記号は、参考画像に写っていない2枚目の配列として、よく使う記号を優先しています。
+
+- **⇔**：タップ・長押しでカーソルバーを表示／非表示にします。左右フリックは1文字移動、方向を保持すると連続移動します。上フリックは貼り付け、下フリックは履歴です。
+- **空白**：タップで半角空白、長押しでカーソルバー、上スワイプで貼り付け、下スワイプで履歴を使えます。
+- **削除**：タップ・長押しは左の文字を削除します。右スワイプは右の1文字、左スワイプは句読点・改行などまで削除します。
+- **改行キー**：azooKey標準のキーを使用し、入力欄に応じた「実行」「検索」「改行」などの表示に従います。
+
+参考画像の歯車の位置は「⇔」に置き換えています。配置図の色・文字サイズ・キー間隔は参考表示です。実際の外観はazooKeyの着せ替え・文字サイズ・キーボード高さに従います。GboardのGoogleボタンや音声入力ボタンは含めていません。
 
 ### 追加したフリック操作
 
@@ -40,6 +62,17 @@ https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/gbo
 | 両タブの右カーソル | 下 | 空白・句読点・改行を基準に次へ移動 |
 | GODANのABC・QWERTYの五段 | 下 | タブバーの表示を切り替える |
 | QWERTYの123 | 上 | キーボードを閉じる |
+| GODAN・QWERTYの削除 | 右 | カーソル右の1文字を削除 |
+| GODANのW | 下 | `「」` を挿入し、カーソルを内側へ移動 |
+| QWERTYのk | 下 | `()` を挿入し、カーソルを内側へ移動 |
+| QWERTYの全英字キー | 上 | 表示済みの副文字を入力（長押しと同じ数字・記号） |
+| GODANのE・O | 下 | それぞれ半角 `-`・`.` を入力 |
+| QWERTYのピリオド | 上 | `/` を入力 |
+| QWERTYの空白 | 下 | クリップボード履歴を開く |
+
+括弧ペアの操作は、入力中の文字を確定して空の括弧を挿入します。選択中の文字がある場合は、その文字を括弧で囲むのではなく、空の括弧に置き換えます。[直接入力とカーソル移動の定義](https://github.com/azooKey/azooKey/blob/754a9ad17cf300596d761845466b9faa652835f5/AzooKeyCore/Sources/KeyboardViews/ActionUtils.swift#L17-L36)
+
+「句読点まで」の削除は、確定済みの文章では前の句読点・改行まで、未確定文字がある場合はその入力中のカーソルより前を削除します。区切りに接している場合は1文字だけ削除します。以前のGODANの「全削除」は同じ処理で、動作が分かる名前へ変更しました。文書全体の削除や、単語の意味による区切り判定ではありません。[公式の削除処理](https://github.com/azooKey/azooKey/blob/754a9ad17cf300596d761845466b9faa652835f5/Keyboard/Display/InputManager.swift#L556-L637)
 
 履歴の保存には履歴保存設定の有効化と「フルアクセス」が必要です。このフリックは履歴画面を開きます。[公式の履歴保存処理](https://github.com/azooKey/azooKey/blob/b50db4aec1069a8d2341f70415da3bdc61f1fce6/AzooKeyCore/Sources/KeyboardViews/ClipboardHistoryManager.swift)
 
@@ -69,7 +102,7 @@ Webの `type="number"` だけでは、必ずテンキーになるとは限りま
 
 実際の対象ページの属性や、そこでの自動切替は実機で未確認です。手動で「123」を押した画面だけでは、自動切替の確認にはなりません。
 
-個別に読み込む場合は、[GODAN単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/godan-gboard-like.json)と[QWERTY単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/qwerty-gboard-like.json)の両方を保存してください。
+個別に読み込む場合は、[GODAN単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/godan-gboard-like.json)、[QWERTY単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/qwerty-gboard-like.json)、[数字記号単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/numbers-gboard-like.json)、[追加記号単体](https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/symbols-gboard-like.json)の4つを保存してください。
 
 ## ヒント付き標準版
 
@@ -123,7 +156,9 @@ https://raw.githubusercontent.com/H4M4CHi-ttr/azookey-godan-flick-hints/main/god
 
 ヒント付き標準版と幅比較版は、JSONの構文、方向ラベルの形式、元データとの比較を確認しています。標準版はヒントとタブ名・識別子、幅比較版はそれらに加えて横の格子数・キーのx位置・幅を変更しています。それ以外のデータは公式GODANと一致しています。
 
-画像配列セットは、2タブ間の切替先、配置の範囲と重複、全英字と長押しの数字・記号、カーソルキー・空白長押しの定義を確認しています。GODANの元の文字入力・置換処理・既存フリック候補を保持し、数字フリックを追加しています。セットJSONは個別JSONと同じ内容です。
+画像配列セットは、4タブ間の切替先、配置の範囲と重複、全英字と長押し・上スワイプの数字・記号、カーソルキー・空白長押し・括弧ペア・右削除の定義を確認しています。GODANの元の文字入力・置換処理・既存フリック候補を保持し、数字と補助フリックを追加しています。セットJSONは個別JSONと同じ内容です。
+
+リポジトリの `python scripts/check_layouts.py` で、JSONの構造・キーの重複や範囲・切替先・セットと個別JSONの一致を確認できます。
 
 iPhone / iPadでの読み込み、表示や操作は未確認です。
 
@@ -138,3 +173,4 @@ iPhone / iPadでの読み込み、表示や操作は未確認です。
 ```
 
 元データの著作権表示は `Copyright (c) 2024 ensan (Keita Miwa)` です。[元リポジトリのライセンス説明](https://github.com/azooKey/azooKey-site/blob/01a4779becc21cabbcb6532c2c8908616dad5817/README.md)に従い、MITライセンスの全文を [LICENSE](LICENSE) に同梱しています。このリポジトリもMITライセンスで公開しています。
+

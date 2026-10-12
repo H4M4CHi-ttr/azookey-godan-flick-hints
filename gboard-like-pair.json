@@ -622,7 +622,7 @@
                 "key": {
                   "design": {
                     "label": {
-                      "text": "全削除"
+                      "text": "句読点まで"
                     }
                   },
                   "press_actions": [
@@ -636,6 +636,28 @@
                   }
                 },
                 "type": "flick_variation"
+              },
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "右削除"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "delete",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
               }
             ]
           },
@@ -1373,8 +1395,8 @@
                     },
                     {
                       "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "flick_numbersymbols"
+                      "tab_type": "custom",
+                      "identifier": "numbers_gboard_like"
                     }
                   ],
                   "longpress_actions": {
@@ -2120,8 +2142,8 @@
                     },
                     {
                       "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "flick_numbersymbols"
+                      "tab_type": "custom",
+                      "identifier": "numbers_gboard_like"
                     }
                   ],
                   "longpress_actions": {
@@ -2166,7 +2188,11 @@
           "key": {
             "design": {
               "label": {
-                "text": "E"
+                "type": "main_and_directions",
+                "main": "E",
+                "directions": {
+                  "bottom": "-"
+                }
               },
               "color": "normal"
             },
@@ -2406,6 +2432,28 @@
                   }
                 },
                 "type": "flick_variation"
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "-"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "-"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
               }
             ]
           },
@@ -2668,7 +2716,11 @@
           "key": {
             "design": {
               "label": {
-                "text": "O"
+                "type": "main_and_directions",
+                "main": "O",
+                "directions": {
+                  "bottom": "."
+                }
               },
               "color": "normal"
             },
@@ -2908,6 +2960,28 @@
                   }
                 },
                 "type": "flick_variation"
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "."
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "."
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
               }
             ]
           },
@@ -3034,7 +3108,8 @@
                 "directions": {
                   "left": "「",
                   "top": "V",
-                  "right": "」"
+                  "right": "」",
+                  "bottom": "「」"
                 }
               },
               "color": "normal"
@@ -3126,6 +3201,32 @@
                   }
                 },
                 "type": "flick_variation"
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "「」"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "direct_input",
+                      "text": "「」"
+                    },
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
               }
             ]
           },
@@ -3187,7 +3288,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "1"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "1"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3226,7 +3350,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "2"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "2"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3265,7 +3412,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "3"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "3"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3304,7 +3474,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "4"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "4"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3343,7 +3536,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "5"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "5"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3382,7 +3598,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "6"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "6"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3421,7 +3660,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "7"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "7"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3460,7 +3722,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "8"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "8"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3499,7 +3784,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "9"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "9"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3538,7 +3846,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "0"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "0"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3577,7 +3908,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "@"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "@"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3616,7 +3970,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "#"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "#"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3655,7 +4032,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "¥"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "¥"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3694,7 +4094,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "_"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "_"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3733,7 +4156,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "&"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "&"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3772,7 +4218,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "-"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "-"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3811,7 +4280,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "+"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "+"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3850,7 +4342,56 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "()"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "direct_input",
+                      "text": "()"
+                    },
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "("
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "("
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3889,7 +4430,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": ")"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": ")"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3928,7 +4492,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "*"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "*"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -3967,7 +4554,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "\""
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "\""
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4006,7 +4616,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "'"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "'"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4045,7 +4678,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": ":"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": ":"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4084,7 +4740,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": ";"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": ";"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4123,7 +4802,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "!"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "!"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4162,7 +4864,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "?"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "?"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4210,7 +4935,30 @@
                 }
               ]
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "右削除"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "delete",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4231,9 +4979,12 @@
             },
             "press_actions": [
               {
+                "type": "complete"
+              },
+              {
                 "type": "move_tab",
-                "tab_type": "system",
-                "identifier": "qwerty_numbers"
+                "tab_type": "custom",
+                "identifier": "numbers_gboard_like"
               }
             ],
             "longpress_actions": {
@@ -4404,6 +5155,32 @@
                     "repeat": []
                   }
                 }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "履歴"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "complete"
+                    },
+                    {
+                      "type": "move_tab",
+                      "tab_type": "system",
+                      "identifier": "clipboard_history_tab"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
               }
             ]
           }
@@ -4444,7 +5221,30 @@
               ],
               "repeat": []
             },
-            "variations": []
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "/"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "/"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
           }
         },
         {
@@ -4609,6 +5409,2518 @@
             "x": 91,
             "y": 3,
             "width": 20,
+            "height": 1
+          },
+          "key_type": "system",
+          "key": {
+            "type": "enter"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "numbers_gboard_like",
+    "language": "none",
+    "input_style": "direct",
+    "metadata": {
+      "custard_version": "1.0",
+      "display_name": "数字記号（画像配置）"
+    },
+    "interface": {
+      "key_style": "pc_style",
+      "key_layout": {
+        "type": "grid_fit",
+        "row_count": 111,
+        "column_count": 4
+      },
+      "keys": [
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "1"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "1"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "2"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "2"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "3"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "3"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "4"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "4"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 45,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "5"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "5"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 56,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "6"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "6"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 67,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "7"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "7"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 78,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "8"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "8"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 89,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "9"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "9"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 100,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "0"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "0"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "-"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "-"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "/"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "/"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ":"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ":"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ";"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ";"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 45,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "("
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "("
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 56,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ")"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ")"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 67,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "$"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "$"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 78,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "&"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "&"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 89,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "@"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "@"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 100,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "\""
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "\""
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 0,
+            "y": 2,
+            "width": 13,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "#+="
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "symbols_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 17,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "•"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "•"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 33,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "…"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "…"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 49,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "?"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "?"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 65,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "!"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "!"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 81,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "'"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "'"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 98,
+            "y": 2,
+            "width": 13,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "system_image": "delete.left"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "delete",
+                "count": 1
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": [
+                {
+                  "type": "delete",
+                  "count": 1
+                }
+              ]
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "右削除"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "delete",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "句読点まで"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "smart_delete_default"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "あ"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "godan_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "list.bullet"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "toggle_tab_bar"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "A"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qwerty_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "⇔"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [
+                {
+                  "type": "toggle_cursor_bar"
+                }
+              ],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "←"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": -1
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "→"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": 1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "履歴"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_tab",
+                      "tab_type": "system",
+                      "identifier": "clipboard_history_tab"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 3,
+            "width": 11,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ","
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ","
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 47,
+            "y": 3,
+            "width": 34,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "空白"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": " "
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [
+                {
+                  "type": "toggle_cursor_bar"
+                }
+              ],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "履歴"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_tab",
+                      "tab_type": "system",
+                      "identifier": "clipboard_history_tab"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 83,
+            "y": 3,
+            "width": 11,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "."
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "."
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 96,
+            "y": 3,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "system",
+          "key": {
+            "type": "enter"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "identifier": "symbols_gboard_like",
+    "language": "none",
+    "input_style": "direct",
+    "metadata": {
+      "custard_version": "1.0",
+      "display_name": "記号（追加）"
+    },
+    "interface": {
+      "key_style": "pc_style",
+      "key_layout": {
+        "type": "grid_fit",
+        "row_count": 111,
+        "column_count": 4
+      },
+      "keys": [
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "#"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "#"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "%"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "%"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "+"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "+"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "="
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "="
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 45,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "*"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "*"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 56,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "\\"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "\\"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 67,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "^"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "^"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 78,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "_"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "_"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 89,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "|"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "|"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 100,
+            "y": 0,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "~"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "~"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "<"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "<"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ">"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ">"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "["
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "["
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "]"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "]"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 45,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "{"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "{"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 56,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "}"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "}"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 67,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "¥"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "¥"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 78,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "$"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "$"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 89,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "€"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "€"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 100,
+            "y": 1,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "£"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "£"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 0,
+            "y": 2,
+            "width": 13,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "?123"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "numbers_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 17,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "`"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "`"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 33,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "°"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "°"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 49,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "÷"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "÷"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 65,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "×"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "×"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 81,
+            "y": 2,
+            "width": 14,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "√"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "√"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 98,
+            "y": 2,
+            "width": 13,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "system_image": "delete.left"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "delete",
+                "count": 1
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": [
+                {
+                  "type": "delete",
+                  "count": 1
+                }
+              ]
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "右削除"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "delete",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "句読点まで"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "smart_delete_default"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 1,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "あ"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "godan_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "list.bullet"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "toggle_tab_bar"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 12,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "A"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "complete"
+              },
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qwerty_gboard_like"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 23,
+            "y": 3,
+            "width": 10,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "⇔"
+              },
+              "color": "special"
+            },
+            "press_actions": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [
+                {
+                  "type": "toggle_cursor_bar"
+                }
+              ],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "←"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": -1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": -1
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "right",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "→"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_cursor",
+                      "count": 1
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": [
+                      {
+                        "type": "move_cursor",
+                        "count": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "履歴"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_tab",
+                      "tab_type": "system",
+                      "identifier": "clipboard_history_tab"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 34,
+            "y": 3,
+            "width": 11,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": ","
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": ","
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 47,
+            "y": 3,
+            "width": 34,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "空白"
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": " "
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [
+                {
+                  "type": "toggle_cursor_bar"
+                }
+              ],
+              "repeat": []
+            },
+            "variations": [
+              {
+                "type": "flick_variation",
+                "direction": "top",
+                "key": {
+                  "design": {
+                    "label": {
+                      "system_image": "doc.on.clipboard"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "paste"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "bottom",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "履歴"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "move_tab",
+                      "tab_type": "system",
+                      "identifier": "clipboard_history_tab"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "normal",
+                    "start": [],
+                    "repeat": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 83,
+            "y": 3,
+            "width": 11,
+            "height": 1
+          },
+          "key_type": "custom",
+          "key": {
+            "design": {
+              "label": {
+                "text": "."
+              },
+              "color": "normal"
+            },
+            "press_actions": [
+              {
+                "type": "input",
+                "text": "."
+              }
+            ],
+            "longpress_actions": {
+              "duration": "normal",
+              "start": [],
+              "repeat": []
+            },
+            "variations": []
+          }
+        },
+        {
+          "specifier_type": "grid_fit",
+          "specifier": {
+            "x": 96,
+            "y": 3,
+            "width": 14,
             "height": 1
           },
           "key_type": "system",

@@ -621,7 +621,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "全削除"
+                    "text": "句読点まで"
                   }
                 },
                 "press_actions": [
@@ -635,6 +635,28 @@
                 }
               },
               "type": "flick_variation"
+            },
+            {
+              "type": "flick_variation",
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "右削除"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "delete",
+                    "count": -1
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
             }
           ]
         },
@@ -1372,8 +1394,8 @@
                   },
                   {
                     "type": "move_tab",
-                    "tab_type": "system",
-                    "identifier": "flick_numbersymbols"
+                    "tab_type": "custom",
+                    "identifier": "numbers_gboard_like"
                   }
                 ],
                 "longpress_actions": {
@@ -2119,8 +2141,8 @@
                   },
                   {
                     "type": "move_tab",
-                    "tab_type": "system",
-                    "identifier": "flick_numbersymbols"
+                    "tab_type": "custom",
+                    "identifier": "numbers_gboard_like"
                   }
                 ],
                 "longpress_actions": {
@@ -2165,7 +2187,11 @@
         "key": {
           "design": {
             "label": {
-              "text": "E"
+              "type": "main_and_directions",
+              "main": "E",
+              "directions": {
+                "bottom": "-"
+              }
             },
             "color": "normal"
           },
@@ -2405,6 +2431,28 @@
                 }
               },
               "type": "flick_variation"
+            },
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "-"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "-"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
             }
           ]
         },
@@ -2667,7 +2715,11 @@
         "key": {
           "design": {
             "label": {
-              "text": "O"
+              "type": "main_and_directions",
+              "main": "O",
+              "directions": {
+                "bottom": "."
+              }
             },
             "color": "normal"
           },
@@ -2907,6 +2959,28 @@
                 }
               },
               "type": "flick_variation"
+            },
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "."
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "."
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
             }
           ]
         },
@@ -3033,7 +3107,8 @@
               "directions": {
                 "left": "「",
                 "top": "V",
-                "right": "」"
+                "right": "」",
+                "bottom": "「」"
               }
             },
             "color": "normal"
@@ -3125,6 +3200,32 @@
                 }
               },
               "type": "flick_variation"
+            },
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "「」"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "direct_input",
+                    "text": "「」"
+                  },
+                  {
+                    "type": "move_cursor",
+                    "count": -1
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
             }
           ]
         },
