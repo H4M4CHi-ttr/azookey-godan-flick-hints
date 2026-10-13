@@ -1,76 +1,147 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="460" viewBox="0 0 1110 460" role="img">
-<title>記号（追加）の配置図</title>
-<rect width="1110" height="460" rx="18" fill="#202124"/>
-<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#ffffff">
-<text x="24" y="35" font-size="24">記号（追加） — 配置図</text>
-<rect x="13" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="60" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">#</text>
-<rect x="123" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="170" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">%</text>
-<rect x="233" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="280" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">+</text>
-<rect x="343" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="390" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">=</text>
-<rect x="453" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="500" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">*</text>
-<rect x="563" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="610" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">\</text>
-<rect x="673" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="720" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">^</text>
-<rect x="783" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="830" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">_</text>
-<rect x="893" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="940" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">|</text>
-<rect x="1003" y="54" width="94" height="86" rx="14" fill="#444548"/>
-<text x="1050" y="98" text-anchor="middle" dominant-baseline="central" font-size="49">~</text>
-<rect x="13" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="60" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">&lt;</text>
-<rect x="123" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="170" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">&gt;</text>
-<rect x="233" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="280" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">[</text>
-<rect x="343" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="390" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">]</text>
-<rect x="453" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="500" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">{</text>
-<rect x="563" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="610" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">}</text>
-<rect x="673" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="720" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">¥</text>
-<rect x="783" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="830" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">$</text>
-<rect x="893" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="940" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">€</text>
-<rect x="1003" y="154" width="94" height="86" rx="14" fill="#444548"/>
-<text x="1050" y="198" text-anchor="middle" dominant-baseline="central" font-size="49">£</text>
-<rect x="3" y="254" width="124" height="86" rx="14" fill="#303134"/>
-<text x="65" y="298" text-anchor="middle" dominant-baseline="central" font-size="39">?123</text>
-<rect x="173" y="254" width="134" height="86" rx="14" fill="#444548"/>
-<text x="240" y="298" text-anchor="middle" dominant-baseline="central" font-size="49">`</text>
-<rect x="333" y="254" width="134" height="86" rx="14" fill="#444548"/>
-<text x="400" y="298" text-anchor="middle" dominant-baseline="central" font-size="49">°</text>
-<rect x="493" y="254" width="134" height="86" rx="14" fill="#444548"/>
-<text x="560" y="298" text-anchor="middle" dominant-baseline="central" font-size="49">÷</text>
-<rect x="653" y="254" width="134" height="86" rx="14" fill="#444548"/>
-<text x="720" y="298" text-anchor="middle" dominant-baseline="central" font-size="49">×</text>
-<rect x="813" y="254" width="134" height="86" rx="14" fill="#444548"/>
-<text x="880" y="298" text-anchor="middle" dominant-baseline="central" font-size="49">√</text>
-<rect x="983" y="254" width="124" height="86" rx="14" fill="#303134"/>
-<path d="M 1015 297 L 1030 277 H 1071 V 317 H 1030 Z" fill="none" stroke="white" stroke-width="4" stroke-linejoin="round"/>
-<path d="M 1041 288 L 1059 306 M 1059 288 L 1041 306" stroke="white" stroke-width="4"/>
-<rect x="13" y="354" width="94" height="86" rx="14" fill="#303134"/>
-<text x="60" y="398" text-anchor="middle" dominant-baseline="central" font-size="49">あ</text>
-<rect x="123" y="354" width="94" height="86" rx="14" fill="#303134"/>
-<text x="170" y="398" text-anchor="middle" dominant-baseline="central" font-size="49">A</text>
-<rect x="233" y="354" width="94" height="86" rx="14" fill="#303134"/>
-<text x="280" y="398" text-anchor="middle" dominant-baseline="central" font-size="49">⇔</text>
-<rect x="343" y="354" width="104" height="86" rx="14" fill="#444548"/>
-<text x="395" y="398" text-anchor="middle" dominant-baseline="central" font-size="49">,</text>
-<rect x="473" y="354" width="334" height="86" rx="14" fill="#444548"/>
-<text x="640" y="398" text-anchor="middle" dominant-baseline="central" font-size="39">空白</text>
-<rect x="833" y="354" width="104" height="86" rx="14" fill="#444548"/>
-<text x="885" y="398" text-anchor="middle" dominant-baseline="central" font-size="49">.</text>
-<rect x="963" y="354" width="134" height="86" rx="14" fill="#4169e1"/>
-<text x="1030" y="398" text-anchor="middle" dominant-baseline="central" font-size="39">改行</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="664" viewBox="0 0 1080 664" role="img" aria-labelledby="title description">
+<title id="title">記号（追加）｜配置</title>
+<desc id="description">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</desc>
+<metadata>{&quot;symbols-gboard-like.json&quot;: &quot;83c551e591989c9f39c500af6de076c0d489658f8ace5e96d49901427521da7e&quot;}</metadata>
+<rect width="1080" height="664" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">記号（追加）｜配置</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</text>
+<rect x="37.2973" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="0"><desc>#</desc>
+<text x="79.7838" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">#</text>
+</g>
+<rect x="139.568" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="1"><desc>%</desc>
+<text x="182.054" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">%</text>
+</g>
+<rect x="241.838" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="2"><desc>+</desc>
+<text x="284.324" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">+</text>
+</g>
+<rect x="344.108" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="3"><desc>=</desc>
+<text x="386.595" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">=</text>
+</g>
+<rect x="446.378" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="4"><desc>*</desc>
+<text x="488.865" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">*</text>
+</g>
+<rect x="548.649" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="5"><desc>\</desc>
+<text x="591.135" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">\</text>
+</g>
+<rect x="650.919" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="6"><desc>^</desc>
+<text x="693.405" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">^</text>
+</g>
+<rect x="753.189" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="7"><desc>_</desc>
+<text x="795.676" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">_</text>
+</g>
+<rect x="855.459" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="8"><desc>|</desc>
+<text x="897.946" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">|</text>
+</g>
+<rect x="957.73" y="113" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="9"><desc>~</desc>
+<text x="1000.22" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">~</text>
+</g>
+<rect x="37.2973" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="10"><desc>&lt;</desc>
+<text x="79.7838" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">&lt;</text>
+</g>
+<rect x="139.568" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="11"><desc>&gt;</desc>
+<text x="182.054" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">&gt;</text>
+</g>
+<rect x="241.838" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="12"><desc>[</desc>
+<text x="284.324" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">[</text>
+</g>
+<rect x="344.108" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="13"><desc>]</desc>
+<text x="386.595" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">]</text>
+</g>
+<rect x="446.378" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="14"><desc>{</desc>
+<text x="488.865" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">{</text>
+</g>
+<rect x="548.649" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="15"><desc>}</desc>
+<text x="591.135" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">}</text>
+</g>
+<rect x="650.919" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="16"><desc>¥</desc>
+<text x="693.405" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">¥</text>
+</g>
+<rect x="753.189" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="17"><desc>$</desc>
+<text x="795.676" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">$</text>
+</g>
+<rect x="855.459" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="18"><desc>€</desc>
+<text x="897.946" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">€</text>
+</g>
+<rect x="957.73" y="241" width="84.973" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="19"><desc>£</desc>
+<text x="1000.22" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">£</text>
+</g>
+<rect x="28" y="369" width="112.865" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="20"><desc>?123</desc>
+<text x="84.4324" y="428" text-anchor="middle" dominant-baseline="central" font-size="35.0427" font-weight="400" fill="#f8fafc">?123</text>
+</g>
+<rect x="186.054" y="369" width="122.162" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="21"><desc>`</desc>
+<text x="247.135" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">`</text>
+</g>
+<rect x="334.811" y="369" width="122.162" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="22"><desc>°</desc>
+<text x="395.892" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">°</text>
+</g>
+<rect x="483.568" y="369" width="122.162" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="23"><desc>÷</desc>
+<text x="544.649" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">÷</text>
+</g>
+<rect x="632.324" y="369" width="122.162" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="24"><desc>×</desc>
+<text x="693.405" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">×</text>
+</g>
+<rect x="781.081" y="369" width="122.162" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="25"><desc>√</desc>
+<text x="842.162" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">√</text>
+</g>
+<rect x="939.135" y="369" width="112.865" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="26"><desc>削除</desc>
+<g transform="translate(995.568 428) scale(0.90527)" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linejoin="round"><path d="M -30 0 L -14 -20 H 26 V 20 H -14 Z"/><path d="M -4 -9 L 14 9 M 14 -9 L -4 9"/></g>
+</g>
+<rect x="37.2973" y="497" width="84.973" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="27"><desc>あ</desc>
+<text x="79.7838" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">あ</text>
+</g>
+<rect x="139.568" y="497" width="84.973" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="28"><desc>A</desc>
+<text x="182.054" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">A</text>
+</g>
+<rect x="241.838" y="497" width="84.973" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="29"><desc>⇔</desc>
+<text x="284.324" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">⇔</text>
+</g>
+<rect x="344.108" y="497" width="94.2703" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="30"><desc>,</desc>
+<text x="391.243" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">,</text>
+</g>
+<rect x="464.973" y="497" width="308.108" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="31"><desc>空白</desc>
+<text x="619.027" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">空白</text>
+</g>
+<rect x="799.676" y="497" width="94.2703" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="32"><desc>.</desc>
+<text x="846.811" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">.</text>
+</g>
+<rect x="920.541" y="497" width="122.162" height="118" rx="16" fill="#315788"/>
+<g data-key-index="33"><desc>改行</desc>
+<text x="981.622" y="556" text-anchor="middle" dominant-baseline="central" font-size="47.0324" font-weight="400" fill="#f8fafc">改行</text>
+</g>
+<text x="32" y="644" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">配置とヒントの図です。色・文字サイズ・間隔・システムキー表示は本体設定に従います。</text>
 </g>
 </svg>

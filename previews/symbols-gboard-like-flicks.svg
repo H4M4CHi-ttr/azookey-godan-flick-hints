@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="950" viewBox="0 0 1080 950" role="img" aria-labelledby="title description">
+<title id="title">記号（追加）｜操作フリック</title>
+<desc id="description">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</desc>
+<metadata>{&quot;symbols-gboard-like.json&quot;: &quot;83c551e591989c9f39c500af6de076c0d489658f8ace5e96d49901427521da7e&quot;}</metadata>
+<rect width="1080" height="950" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">記号（追加）｜操作フリック</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</text>
+<rect x="24" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">削除 キー</text>
+<text x="277" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：左1文字削除</text>
+<rect x="225" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<g transform="translate(277 309) scale(0.895833)" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linejoin="round"><path d="M -30 0 L -14 -20 H 26 V 20 H -14 Z"/><path d="M -4 -9 L 14 9 M 14 -9 L -4 9"/></g>
+<text x="277" y="225" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="symbols-gboard-like.json" data-key-index="26" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;smart_delete_default&quot;}]</desc>
+<text x="109" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">句読点まで</text>
+<text x="109" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">削除</text>
+<path d="M 221 309 L 194 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,309 199.573,304.764 199.573,313.236" fill="#7dd3fc"/>
+</g>
+<g data-source="symbols-gboard-like.json" data-key-index="26" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;delete&quot;, &quot;count&quot;: -1}]</desc>
+<text x="445" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">右1文字</text>
+<text x="445" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">削除</text>
+<path d="M 333 309 L 360 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="360,309 354.427,313.236 354.427,304.764" fill="#7dd3fc"/>
+</g>
+<text x="277" y="399" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="277" y="456" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：左へ連続削除</text>
+<rect x="550" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">あ キー</text>
+<text x="803" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：GODANを開く</text>
+<rect x="751" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="309" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">あ</text>
+<text x="803" y="225" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="635" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="971" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="symbols-gboard-like.json" data-key-index="27" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;toggle_tab_bar&quot;}]</desc>
+<text x="803" y="399" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">タブバー表示</text>
+<path d="M 803 356 L 803 372" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,372 798.764,366.427 807.236,366.427" fill="#7dd3fc"/>
+</g>
+<rect x="24" y="504" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="535" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">⇔ キー</text>
+<text x="277" y="574" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：カーソルバー</text>
+<rect x="225" y="662" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="277" y="705" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">⇔</text>
+<g data-source="symbols-gboard-like.json" data-key-index="29" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;paste&quot;}]</desc>
+<text x="277" y="621" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">貼り付け</text>
+<path d="M 277 658 L 277 643" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="277,643 281.236,648.573 272.764,648.573" fill="#7dd3fc"/>
+</g>
+<g data-source="symbols-gboard-like.json" data-key-index="29" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: -1}]</desc>
+<text x="109" y="689" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字左へ</text>
+<text x="109" y="721" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 221 705 L 194 705" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,705 199.573,700.764 199.573,709.236" fill="#7dd3fc"/>
+</g>
+<g data-source="symbols-gboard-like.json" data-key-index="29" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: 1}]</desc>
+<text x="445" y="689" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字右へ</text>
+<text x="445" y="721" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 333 705 L 360 705" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="360,705 354.427,709.236 354.427,700.764" fill="#7dd3fc"/>
+</g>
+<g data-source="symbols-gboard-like.json" data-key-index="29" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;move_tab&quot;, &quot;tab_type&quot;: &quot;system&quot;, &quot;identifier&quot;: &quot;clipboard_history_tab&quot;}]</desc>
+<text x="277" y="795" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">履歴を開く</text>
+<path d="M 277 752 L 277 768" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="277,768 272.764,762.427 281.236,762.427" fill="#7dd3fc"/>
+</g>
+<text x="277" y="852" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：カーソルバー</text>
+<rect x="550" y="504" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="535" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">空白 キー</text>
+<text x="803" y="574" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：半角空白</text>
+<rect x="751" y="662" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="705" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">空白</text>
+<g data-source="symbols-gboard-like.json" data-key-index="31" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;paste&quot;}]</desc>
+<text x="803" y="621" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">貼り付け</text>
+<path d="M 803 658 L 803 643" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,643 807.236,648.573 798.764,648.573" fill="#7dd3fc"/>
+</g>
+<text x="635" y="705" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="971" y="705" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="symbols-gboard-like.json" data-key-index="31" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;move_tab&quot;, &quot;tab_type&quot;: &quot;system&quot;, &quot;identifier&quot;: &quot;clipboard_history_tab&quot;}]</desc>
+<text x="803" y="795" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">履歴を開く</text>
+<path d="M 803 752 L 803 768" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,768 798.764,762.427 807.236,762.427" fill="#7dd3fc"/>
+</g>
+<text x="803" y="852" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：カーソルバー</text>
+<text x="32" y="921" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">貼付・履歴にはフルアクセス等の設定が必要。カーソルバーは指を離してから操作します。</text>
+</g>
+</svg>

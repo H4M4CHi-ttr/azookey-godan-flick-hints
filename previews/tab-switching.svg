@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="792" viewBox="0 0 1080 792" role="img" aria-labelledby="title description">
+<title id="title">4タブの切替早見図</title>
+<desc id="description">タップとフリックで移動できます。切替時は入力中の文字を確定します。</desc>
+<metadata>{&quot;godan-gboard-like.json&quot;: &quot;d54c3722039d9c55ae1ffa3c10bc63633afc21787ec0889d20da9fb3f844c10e&quot;, &quot;numbers-gboard-like.json&quot;: &quot;b08ed2bed4609c70b558af801846b0a33518ea56e66a5f3ad22945e7d3794804&quot;, &quot;qwerty-gboard-like.json&quot;: &quot;660e43e39c5f3895d08c3aef259463e5767d054e564d2479b0d49e912050995a&quot;, &quot;symbols-gboard-like.json&quot;: &quot;83c551e591989c9f39c500af6de076c0d489658f8ace5e96d49901427521da7e&quot;}</metadata>
+<rect width="1080" height="792" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">4タブの切替早見図</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">タップとフリックで移動できます。切替時は入力中の文字を確定します。</text>
+<rect x="24" y="116" width="1032" height="144" rx="16" fill="#1b273b"/>
+<rect x="40" y="142" width="172" height="90" rx="16" fill="#315788"/>
+<text x="126" y="187" text-anchor="middle" dominant-baseline="central" font-size="30" font-weight="700" fill="#f8fafc">GODAN</text>
+<text x="362" y="138.5" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">絵文字キー →</text>
+<text x="362" y="165.5" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">ABC ↑</text>
+<path d="M 266 194 L 458 194" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="458,194 452.427,198.236 452.427,189.764" fill="#7dd3fc"/>
+<text x="362" y="227" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">数字記号</text>
+<text x="626" y="152" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">ABC タップ</text>
+<path d="M 530 194 L 722 194" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="722,194 716.427,198.236 716.427,189.764" fill="#7dd3fc"/>
+<text x="626" y="227" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">英字</text>
+<rect x="24" y="274" width="1032" height="144" rx="16" fill="#1b273b"/>
+<rect x="40" y="300" width="172" height="90" rx="16" fill="#315788"/>
+<text x="126" y="345" text-anchor="middle" dominant-baseline="central" font-size="30" font-weight="700" fill="#f8fafc">英字</text>
+<text x="362" y="310" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">123 タップ</text>
+<path d="M 266 352 L 458 352" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="458,352 452.427,356.236 452.427,347.764" fill="#7dd3fc"/>
+<text x="362" y="385" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">数字記号</text>
+<text x="626" y="310" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">五段 タップ</text>
+<path d="M 530 352 L 722 352" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="722,352 716.427,356.236 716.427,347.764" fill="#7dd3fc"/>
+<text x="626" y="385" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">GODAN</text>
+<rect x="24" y="432" width="1032" height="144" rx="16" fill="#1b273b"/>
+<rect x="40" y="458" width="172" height="90" rx="16" fill="#315788"/>
+<text x="126" y="503" text-anchor="middle" dominant-baseline="central" font-size="30" font-weight="700" fill="#f8fafc">数字記号</text>
+<text x="362" y="468" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">#+= タップ</text>
+<path d="M 266 510 L 458 510" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="458,510 452.427,514.236 452.427,505.764" fill="#7dd3fc"/>
+<text x="362" y="543" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">追加記号</text>
+<text x="626" y="468" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">あ タップ</text>
+<path d="M 530 510 L 722 510" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="722,510 716.427,514.236 716.427,505.764" fill="#7dd3fc"/>
+<text x="626" y="543" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">GODAN</text>
+<text x="890" y="468" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">A タップ</text>
+<path d="M 794 510 L 986 510" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="986,510 980.427,514.236 980.427,505.764" fill="#7dd3fc"/>
+<text x="890" y="543" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">英字</text>
+<rect x="24" y="590" width="1032" height="144" rx="16" fill="#1b273b"/>
+<rect x="40" y="616" width="172" height="90" rx="16" fill="#315788"/>
+<text x="126" y="661" text-anchor="middle" dominant-baseline="central" font-size="30" font-weight="700" fill="#f8fafc">追加記号</text>
+<text x="362" y="626" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">?123 タップ</text>
+<path d="M 266 668 L 458 668" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="458,668 452.427,672.236 452.427,663.764" fill="#7dd3fc"/>
+<text x="362" y="701" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">数字記号</text>
+<text x="626" y="626" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">あ タップ</text>
+<path d="M 530 668 L 722 668" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="722,668 716.427,672.236 716.427,663.764" fill="#7dd3fc"/>
+<text x="626" y="701" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">GODAN</text>
+<text x="890" y="626" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#fde68a">A タップ</text>
+<path d="M 794 668 L 986 668" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="986,668 980.427,672.236 980.427,663.764" fill="#7dd3fc"/>
+<text x="890" y="701" text-anchor="middle" dominant-baseline="central" font-size="29" font-weight="400" fill="#7dd3fc">英字</text>
+<text x="32" y="767" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">絵文字・履歴など標準タブから戻るときは、タブバーでカスタムタブを選びます。</text>
+</g>
+</svg>

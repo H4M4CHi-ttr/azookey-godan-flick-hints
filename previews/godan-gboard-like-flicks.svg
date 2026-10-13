@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2138" viewBox="0 0 1080 2138" role="img" aria-labelledby="title description">
+<title id="title">GODAN（画像配置）｜操作フリック</title>
+<desc id="description">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</desc>
+<metadata>{&quot;godan-gboard-like.json&quot;: &quot;d54c3722039d9c55ae1ffa3c10bc63633afc21787ec0889d20da9fb3f844c10e&quot;}</metadata>
+<rect width="1080" height="2138" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（画像配置）｜操作フリック</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</text>
+<rect x="24" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">削除 キー</text>
+<text x="277" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：左1文字削除</text>
+<rect x="225" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<g transform="translate(277 309) scale(0.895833)" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linejoin="round"><path d="M -30 0 L -14 -20 H 26 V 20 H -14 Z"/><path d="M -4 -9 L 14 9 M 14 -9 L -4 9"/></g>
+<text x="277" y="225" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-gboard-like.json" data-key-index="4" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;smart_delete_default&quot;}]</desc>
+<text x="109" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">句読点まで</text>
+<text x="109" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">削除</text>
+<path d="M 221 309 L 194 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,309 199.573,304.764 199.573,313.236" fill="#7dd3fc"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="4" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;delete&quot;, &quot;count&quot;: -1}]</desc>
+<text x="445" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">右1文字</text>
+<text x="445" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">削除</text>
+<path d="M 333 309 L 360 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="360,309 354.427,313.236 354.427,304.764" fill="#7dd3fc"/>
+</g>
+<text x="277" y="399" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="277" y="456" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：左へ連続削除</text>
+<rect x="550" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">← キー</text>
+<text x="803" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：1文字左へ</text>
+<rect x="751" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="309" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">←</text>
+<text x="803" y="225" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="635" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="971" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-gboard-like.json" data-key-index="5" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;smart_move_cursor&quot;, &quot;direction&quot;: &quot;backward&quot;, &quot;targets&quot;: [&quot; &quot;, &quot;　&quot;, &quot;、&quot;, &quot;。&quot;, &quot;！&quot;, &quot;？&quot;, &quot;.&quot;, &quot;,&quot;, &quot;．&quot;, &quot;，&quot;, &quot;!&quot;, &quot;?&quot;, &quot;\n&quot;]}]</desc>
+<text x="803" y="399" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">前の区切りへ</text>
+<path d="M 803 356 L 803 372" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,372 798.764,366.427 807.236,366.427" fill="#7dd3fc"/>
+</g>
+<text x="803" y="456" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：連続で左へ</text>
+<rect x="24" y="504" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="535" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">→ キー</text>
+<text x="277" y="574" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：1文字右へ</text>
+<rect x="225" y="662" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="277" y="705" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">→</text>
+<text x="277" y="621" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="109" y="705" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="445" y="705" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-gboard-like.json" data-key-index="9" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;smart_move_cursor&quot;, &quot;direction&quot;: &quot;forward&quot;, &quot;targets&quot;: [&quot; &quot;, &quot;　&quot;, &quot;、&quot;, &quot;。&quot;, &quot;！&quot;, &quot;？&quot;, &quot;.&quot;, &quot;,&quot;, &quot;．&quot;, &quot;，&quot;, &quot;!&quot;, &quot;?&quot;, &quot;\n&quot;]}]</desc>
+<text x="277" y="795" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">次の区切りへ</text>
+<path d="M 277 752 L 277 768" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="277,768 272.764,762.427 281.236,762.427" fill="#7dd3fc"/>
+</g>
+<text x="277" y="852" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：連続で右へ</text>
+<rect x="550" y="504" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="535" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">絵文字・記号 キー</text>
+<text x="803" y="574" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：絵文字を開く</text>
+<rect x="751" y="662" width="104" height="86" rx="13" fill="#34435b"/>
+<g fill="none" stroke="#f8fafc" stroke-width="2.8"><circle cx="787.95" cy="705" r="13.76"/><path d="M 781.62 707.202 Q 787.95 716.008 794.28 707.202"/></g><circle cx="783.547" cy="702.248" r="2" fill="#f8fafc"/><circle cx="792.353" cy="702.248" r="2" fill="#f8fafc"/>
+<text x="819.34" y="705" text-anchor="middle" dominant-baseline="central" font-size="32.25" font-weight="400" fill="#f8fafc">記</text>
+<g data-source="godan-gboard-like.json" data-key-index="10" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;complete&quot;}, {&quot;type&quot;: &quot;move_tab&quot;, &quot;tab_type&quot;: &quot;system&quot;, &quot;identifier&quot;: &quot;clipboard_history_tab&quot;}]</desc>
+<text x="803" y="621" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">履歴を開く</text>
+<path d="M 803 658 L 803 643" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,643 807.236,648.573 798.764,648.573" fill="#7dd3fc"/>
+</g>
+<text x="635" y="705" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-gboard-like.json" data-key-index="10" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;complete&quot;}, {&quot;type&quot;: &quot;move_tab&quot;, &quot;tab_type&quot;: &quot;custom&quot;, &quot;identifier&quot;: &quot;numbers_gboard_like&quot;}]</desc>
+<text x="971" y="689" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">数字記号を</text>
+<text x="971" y="721" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">開く</text>
+<path d="M 859 705 L 886 705" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="886,705 880.427,709.236 880.427,700.764" fill="#7dd3fc"/>
+</g>
+<text x="803" y="795" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<rect x="24" y="900" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="931" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">空白 キー</text>
+<text x="277" y="970" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：半角空白</text>
+<rect x="225" y="1058" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="277" y="1101" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">空白</text>
+<g data-source="godan-gboard-like.json" data-key-index="14" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;　&quot;}]</desc>
+<text x="277" y="1017" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">全角空白</text>
+<path d="M 277 1054 L 277 1039" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="277,1039 281.236,1044.57 272.764,1044.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="14" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: -1}]</desc>
+<text x="109" y="1085" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字左へ</text>
+<text x="109" y="1117" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 221 1101 L 194 1101" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,1101 199.573,1096.76 199.573,1105.24" fill="#7dd3fc"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="14" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: 1}]</desc>
+<text x="445" y="1085" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字右へ</text>
+<text x="445" y="1117" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 333 1101 L 360 1101" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="360,1101 354.427,1105.24 354.427,1096.76" fill="#7dd3fc"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="14" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;\t&quot;}]</desc>
+<text x="277" y="1191" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">Tab</text>
+<path d="M 277 1148 L 277 1164" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="277,1164 272.764,1158.43 281.236,1158.43" fill="#fde68a"/>
+</g>
+<text x="277" y="1248" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：カーソルバー</text>
+<rect x="550" y="900" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="931" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">ABC キー</text>
+<text x="803" y="970" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：英字を開く</text>
+<rect x="751" y="1058" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="1101" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">ABC</text>
+<g data-source="godan-gboard-like.json" data-key-index="15" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;complete&quot;}, {&quot;type&quot;: &quot;move_tab&quot;, &quot;tab_type&quot;: &quot;custom&quot;, &quot;identifier&quot;: &quot;numbers_gboard_like&quot;}]</desc>
+<text x="803" y="1017" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">数字記号を開く</text>
+<path d="M 803 1054 L 803 1039" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,1039 807.236,1044.57 798.764,1044.57" fill="#7dd3fc"/>
+</g>
+<text x="635" y="1101" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="971" y="1101" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-gboard-like.json" data-key-index="15" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;toggle_tab_bar&quot;}]</desc>
+<text x="803" y="1191" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">タブバー表示</text>
+<path d="M 803 1148 L 803 1164" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,1164 798.764,1158.43 807.236,1158.43" fill="#7dd3fc"/>
+</g>
+<rect x="24" y="1296" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="1327" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">E キー</text>
+<text x="277" y="1366" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：え</text>
+<rect x="225" y="1454" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="277" y="1497" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">E</text>
+<g data-source="godan-gboard-like.json" data-key-index="16" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;えん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyえん&quot;: &quot;きぇん&quot;, &quot;gyえん&quot;: &quot;ぎぇん&quot;, &quot;syえん&quot;: &quot;しぇん&quot;, &quot;shえん&quot;: &quot;しぇん&quot;, &quot;zyえん&quot;: &quot;じぇん&quot;, &quot;jyえん&quot;: &quot;じぇん&quot;, &quot;tyえん&quot;: &quot;ちぇん&quot;, &quot;chえん&quot;: &quot;ちぇん&quot;, &quot;dyえん&quot;: &quot;ぢぇん&quot;, &quot;thえん&quot;: &quot;てぇん&quot;, &quot;dhえん&quot;: &quot;でぇん&quot;, &quot;tsえん&quot;: &quot;つぇん&quot;, &quot;nyえん&quot;: &quot;にぇん&quot;, &quot;hyえん&quot;: &quot;ひぇん&quot;, &quot;fyえん&quot;: &quot;ふぇん&quot;, &quot;byえん&quot;: &quot;びぇん&quot;, &quot;pyえん&quot;: &quot;ぴぇん&quot;, &quot;myえん&quot;: &quot;みぇん&quot;, &quot;ryえん&quot;: &quot;りぇん&quot;, &quot;wyえん&quot;: &quot;ゑん&quot;, &quot;lyえん&quot;: &quot;ぇん&quot;, &quot;xyえん&quot;: &quot;ぇん&quot;, &quot;fえん&quot;: &quot;ふぇん&quot;, &quot;jえん&quot;: &quot;じぇん&quot;, &quot;lえん&quot;: &quot;ぇん&quot;, &quot;qえん&quot;: &quot;くぇん&quot;, &quot;vえん&quot;: &quot;ゔぇん&quot;, &quot;xえん&quot;: &quot;ぇん&quot;, &quot;kえん&quot;: &quot;けん&quot;, &quot;gえん&quot;: &quot;げん&quot;, &quot;sえん&quot;: &quot;せん&quot;, &quot;zえん&quot;: &quot;ぜん&quot;, &quot;tえん&quot;: &quot;てん&quot;, &quot;dえん&quot;: &quot;でん&quot;, &quot;nえん&quot;: &quot;ねん&quot;, &quot;hえん&quot;: &quot;へん&quot;, &quot;bえん&quot;: &quot;べん&quot;, &quot;pえん&quot;: &quot;ぺん&quot;, &quot;mえん&quot;: &quot;めん&quot;, &quot;rえん&quot;: &quot;れん&quot;, &quot;wえん&quot;: &quot;うぇん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="277" y="1413" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">えん</text>
+<path d="M 277 1450 L 277 1435" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="277,1435 281.236,1440.57 272.764,1440.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="16" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;えっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyえっ&quot;: &quot;きぇっ&quot;, &quot;gyえっ&quot;: &quot;ぎぇっ&quot;, &quot;syえっ&quot;: &quot;しぇっ&quot;, &quot;shえっ&quot;: &quot;しぇっ&quot;, &quot;zyえっ&quot;: &quot;じぇっ&quot;, &quot;jyえっ&quot;: &quot;じぇっ&quot;, &quot;tyえっ&quot;: &quot;ちぇっ&quot;, &quot;chえっ&quot;: &quot;ちぇっ&quot;, &quot;dyえっ&quot;: &quot;ぢぇっ&quot;, &quot;thえっ&quot;: &quot;てぇっ&quot;, &quot;dhえっ&quot;: &quot;でぇっ&quot;, &quot;tsえっ&quot;: &quot;つぇっ&quot;, &quot;nyえっ&quot;: &quot;にぇっ&quot;, &quot;hyえっ&quot;: &quot;ひぇっ&quot;, &quot;fyえっ&quot;: &quot;ふぇっ&quot;, &quot;byえっ&quot;: &quot;びぇっ&quot;, &quot;pyえっ&quot;: &quot;ぴぇっ&quot;, &quot;myえっ&quot;: &quot;みぇっ&quot;, &quot;ryえっ&quot;: &quot;りぇっ&quot;, &quot;wyえっ&quot;: &quot;ゑっ&quot;, &quot;lyえっ&quot;: &quot;ぇっ&quot;, &quot;xyえっ&quot;: &quot;ぇっ&quot;, &quot;fえっ&quot;: &quot;ふぇっ&quot;, &quot;jえっ&quot;: &quot;じぇっ&quot;, &quot;lえっ&quot;: &quot;ぇっ&quot;, &quot;qえっ&quot;: &quot;くぇっ&quot;, &quot;vえっ&quot;: &quot;ゔぇっ&quot;, &quot;xえっ&quot;: &quot;ぇっ&quot;, &quot;kえっ&quot;: &quot;けっ&quot;, &quot;gえっ&quot;: &quot;げっ&quot;, &quot;sえっ&quot;: &quot;せっ&quot;, &quot;zえっ&quot;: &quot;ぜっ&quot;, &quot;tえっ&quot;: &quot;てっ&quot;, &quot;dえっ&quot;: &quot;でっ&quot;, &quot;nえっ&quot;: &quot;ねっ&quot;, &quot;hえっ&quot;: &quot;へっ&quot;, &quot;bえっ&quot;: &quot;べっ&quot;, &quot;pえっ&quot;: &quot;ぺっ&quot;, &quot;mえっ&quot;: &quot;めっ&quot;, &quot;rえっ&quot;: &quot;れっ&quot;, &quot;wえっ&quot;: &quot;うぇっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="109" y="1497" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">えっ</text>
+<path d="M 221 1497 L 194 1497" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="194,1497 199.573,1492.76 199.573,1501.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="16" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ぇ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fぇ&quot;: &quot;ふぇ&quot;, &quot;jぇ&quot;: &quot;じぇ&quot;, &quot;lぇ&quot;: &quot;ぇ&quot;, &quot;qぇ&quot;: &quot;くぇ&quot;, &quot;vぇ&quot;: &quot;ゔぇ&quot;, &quot;xぇ&quot;: &quot;ぇ&quot;, &quot;kぇ&quot;: &quot;きぇ&quot;, &quot;gぇ&quot;: &quot;ぎぇ&quot;, &quot;sぇ&quot;: &quot;しぇ&quot;, &quot;zぇ&quot;: &quot;じぇ&quot;, &quot;tぇ&quot;: &quot;ちぇ&quot;, &quot;dぇ&quot;: &quot;ぢぇ&quot;, &quot;nぇ&quot;: &quot;にぇ&quot;, &quot;hぇ&quot;: &quot;ひぇ&quot;, &quot;bぇ&quot;: &quot;びぇ&quot;, &quot;pぇ&quot;: &quot;ぴぇ&quot;, &quot;mぇ&quot;: &quot;みぇ&quot;, &quot;yぇ&quot;: &quot;いぇ&quot;, &quot;rぇ&quot;: &quot;りぇ&quot;, &quot;wぇ&quot;: &quot;うぇ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="445" y="1497" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">ぇ</text>
+<path d="M 333 1497 L 360 1497" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="360,1497 354.427,1501.24 354.427,1492.76" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="16" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;-&quot;}]</desc>
+<text x="277" y="1587" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">-</text>
+<path d="M 277 1544 L 277 1560" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="277,1560 272.764,1554.43 281.236,1554.43" fill="#fde68a"/>
+</g>
+<rect x="550" y="1296" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="1327" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">O キー</text>
+<text x="803" y="1366" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：お</text>
+<rect x="751" y="1454" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="1497" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">O</text>
+<g data-source="godan-gboard-like.json" data-key-index="20" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;おん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyおん&quot;: &quot;きょん&quot;, &quot;gyおん&quot;: &quot;ぎょん&quot;, &quot;syおん&quot;: &quot;しょん&quot;, &quot;shおん&quot;: &quot;しょん&quot;, &quot;zyおん&quot;: &quot;じょん&quot;, &quot;jyおん&quot;: &quot;じょん&quot;, &quot;tyおん&quot;: &quot;ちょん&quot;, &quot;chおん&quot;: &quot;ちょん&quot;, &quot;dyおん&quot;: &quot;ぢょん&quot;, &quot;thおん&quot;: &quot;てょん&quot;, &quot;dhおん&quot;: &quot;でょん&quot;, &quot;tsおん&quot;: &quot;つぉん&quot;, &quot;nyおん&quot;: &quot;にょん&quot;, &quot;hyおん&quot;: &quot;ひょん&quot;, &quot;fyおん&quot;: &quot;ふょん&quot;, &quot;byおん&quot;: &quot;びょん&quot;, &quot;pyおん&quot;: &quot;ぴょん&quot;, &quot;myおん&quot;: &quot;みょん&quot;, &quot;ryおん&quot;: &quot;りょん&quot;, &quot;lyおん&quot;: &quot;ょん&quot;, &quot;xyおん&quot;: &quot;ょん&quot;, &quot;fおん&quot;: &quot;ふぉん&quot;, &quot;jおん&quot;: &quot;じょん&quot;, &quot;lおん&quot;: &quot;ぉん&quot;, &quot;qおん&quot;: &quot;くぉん&quot;, &quot;vおん&quot;: &quot;ゔぉん&quot;, &quot;xおん&quot;: &quot;ぉん&quot;, &quot;kおん&quot;: &quot;こん&quot;, &quot;gおん&quot;: &quot;ごん&quot;, &quot;sおん&quot;: &quot;そん&quot;, &quot;zおん&quot;: &quot;ぞん&quot;, &quot;tおん&quot;: &quot;とん&quot;, &quot;dおん&quot;: &quot;どん&quot;, &quot;nおん&quot;: &quot;のん&quot;, &quot;hおん&quot;: &quot;ほん&quot;, &quot;bおん&quot;: &quot;ぼん&quot;, &quot;pおん&quot;: &quot;ぽん&quot;, &quot;mおん&quot;: &quot;もん&quot;, &quot;yおん&quot;: &quot;よん&quot;, &quot;rおん&quot;: &quot;ろん&quot;, &quot;wおん&quot;: &quot;をん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="803" y="1413" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">おん</text>
+<path d="M 803 1450 L 803 1435" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="803,1435 807.236,1440.57 798.764,1440.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="20" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;おっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyおっ&quot;: &quot;きょっ&quot;, &quot;gyおっ&quot;: &quot;ぎょっ&quot;, &quot;syおっ&quot;: &quot;しょっ&quot;, &quot;shおっ&quot;: &quot;しょっ&quot;, &quot;zyおっ&quot;: &quot;じょっ&quot;, &quot;jyおっ&quot;: &quot;じょっ&quot;, &quot;tyおっ&quot;: &quot;ちょっ&quot;, &quot;chおっ&quot;: &quot;ちょっ&quot;, &quot;dyおっ&quot;: &quot;ぢょっ&quot;, &quot;thおっ&quot;: &quot;てょっ&quot;, &quot;dhおっ&quot;: &quot;でょっ&quot;, &quot;tsおっ&quot;: &quot;つぉっ&quot;, &quot;nyおっ&quot;: &quot;にょっ&quot;, &quot;hyおっ&quot;: &quot;ひょっ&quot;, &quot;fyおっ&quot;: &quot;ふょっ&quot;, &quot;byおっ&quot;: &quot;びょっ&quot;, &quot;pyおっ&quot;: &quot;ぴょっ&quot;, &quot;myおっ&quot;: &quot;みょっ&quot;, &quot;ryおっ&quot;: &quot;りょっ&quot;, &quot;lyおっ&quot;: &quot;ょっ&quot;, &quot;xyおっ&quot;: &quot;ょっ&quot;, &quot;fおっ&quot;: &quot;ふぉっ&quot;, &quot;jおっ&quot;: &quot;じょっ&quot;, &quot;lおっ&quot;: &quot;ぉっ&quot;, &quot;qおっ&quot;: &quot;くぉっ&quot;, &quot;vおっ&quot;: &quot;ゔぉっ&quot;, &quot;xおっ&quot;: &quot;ぉっ&quot;, &quot;kおっ&quot;: &quot;こっ&quot;, &quot;gおっ&quot;: &quot;ごっ&quot;, &quot;sおっ&quot;: &quot;そっ&quot;, &quot;zおっ&quot;: &quot;ぞっ&quot;, &quot;tおっ&quot;: &quot;とっ&quot;, &quot;dおっ&quot;: &quot;どっ&quot;, &quot;nおっ&quot;: &quot;のっ&quot;, &quot;hおっ&quot;: &quot;ほっ&quot;, &quot;bおっ&quot;: &quot;ぼっ&quot;, &quot;pおっ&quot;: &quot;ぽっ&quot;, &quot;mおっ&quot;: &quot;もっ&quot;, &quot;yおっ&quot;: &quot;よっ&quot;, &quot;rおっ&quot;: &quot;ろっ&quot;, &quot;wおっ&quot;: &quot;をっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="635" y="1497" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">おっ</text>
+<path d="M 747 1497 L 720 1497" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="720,1497 725.573,1492.76 725.573,1501.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="20" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ょ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fょ&quot;: &quot;ふょ&quot;, &quot;jょ&quot;: &quot;じょ&quot;, &quot;lょ&quot;: &quot;ょ&quot;, &quot;qょ&quot;: &quot;くょ&quot;, &quot;vょ&quot;: &quot;ゔょ&quot;, &quot;xょ&quot;: &quot;ょ&quot;, &quot;kょ&quot;: &quot;きょ&quot;, &quot;gょ&quot;: &quot;ぎょ&quot;, &quot;sょ&quot;: &quot;しょ&quot;, &quot;zょ&quot;: &quot;じょ&quot;, &quot;tょ&quot;: &quot;ちょ&quot;, &quot;dょ&quot;: &quot;ぢょ&quot;, &quot;nょ&quot;: &quot;にょ&quot;, &quot;hょ&quot;: &quot;ひょ&quot;, &quot;bょ&quot;: &quot;びょ&quot;, &quot;pょ&quot;: &quot;ぴょ&quot;, &quot;mょ&quot;: &quot;みょ&quot;, &quot;yょ&quot;: &quot;いょ&quot;, &quot;rょ&quot;: &quot;りょ&quot;, &quot;wょ&quot;: &quot;うぅ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="971" y="1497" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">ょ</text>
+<path d="M 859 1497 L 886 1497" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="886,1497 880.427,1501.24 880.427,1492.76" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="20" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;.&quot;}]</desc>
+<text x="803" y="1587" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">.</text>
+<path d="M 803 1544 L 803 1560" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="803,1560 798.764,1554.43 807.236,1554.43" fill="#fde68a"/>
+</g>
+<rect x="24" y="1692" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="1723" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">⇔ キー</text>
+<text x="277" y="1762" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：カーソルバー</text>
+<rect x="225" y="1850" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="277" y="1893" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">⇔</text>
+<g data-source="godan-gboard-like.json" data-key-index="21" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;paste&quot;}]</desc>
+<text x="277" y="1809" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">貼り付け</text>
+<path d="M 277 1846 L 277 1831" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="277,1831 281.236,1836.57 272.764,1836.57" fill="#7dd3fc"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="21" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: -1}]</desc>
+<text x="109" y="1877" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字左へ</text>
+<text x="109" y="1909" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 221 1893 L 194 1893" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,1893 199.573,1888.76 199.573,1897.24" fill="#7dd3fc"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="21" data-direction="right">
+<desc>[{&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: 1}]</desc>
+<text x="445" y="1877" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字右へ</text>
+<text x="445" y="1909" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 333 1893 L 360 1893" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="360,1893 354.427,1897.24 354.427,1888.76" fill="#7dd3fc"/>
+</g>
+<text x="277" y="1983" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="277" y="2040" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：カーソルバー</text>
+<rect x="550" y="1692" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="1723" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">W キー</text>
+<text x="803" y="1762" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：w</text>
+<rect x="751" y="1850" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="1893" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">W</text>
+<g data-source="godan-gboard-like.json" data-key-index="22" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;v&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;vv&quot;: &quot;っv&quot;, &quot;nv&quot;: &quot;んv&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="803" y="1809" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">V</text>
+<path d="M 803 1846 L 803 1831" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="803,1831 807.236,1836.57 798.764,1836.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="22" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;「&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="635" y="1893" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">「</text>
+<path d="M 747 1893 L 720 1893" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="720,1893 725.573,1888.76 725.573,1897.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="22" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;」&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="971" y="1893" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">」</text>
+<path d="M 859 1893 L 886 1893" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="886,1893 880.427,1897.24 880.427,1888.76" fill="#fde68a"/>
+</g>
+<g data-source="godan-gboard-like.json" data-key-index="22" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;direct_input&quot;, &quot;text&quot;: &quot;「」&quot;}, {&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: -1}]</desc>
+<text x="803" y="1967" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">「│」</text>
+<text x="803" y="1999" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">ペアを挿入・内側へ</text>
+<path d="M 803 1940 L 803 1956" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="803,1956 798.764,1950.43 807.236,1950.43" fill="#7dd3fc"/>
+</g>
+<text x="32" y="2109" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">貼付・履歴にはフルアクセス等の設定が必要。カーソルバーは指を離してから操作します。</text>
+</g>
+</svg>

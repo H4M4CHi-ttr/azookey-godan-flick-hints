@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="554" viewBox="0 0 1080 554" role="img" aria-labelledby="title description">
+<title id="title">GODAN（ヒント付き）｜操作フリック</title>
+<desc id="description">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</desc>
+<metadata>{&quot;godan-flick-hints.json&quot;: &quot;31afff76ef112c3d748604c2bbe4a0f650f10f6c46adb1133d70cf0c8fb74fae&quot;}</metadata>
+<rect width="1080" height="554" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（ヒント付き）｜操作フリック</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">中央のキーから矢印の方向へ。黄色＝文字入力、青色＝操作、紫色＝長押し、—＝未割当。</text>
+<rect x="24" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="277" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">削除 キー</text>
+<text x="277" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：左1文字削除</text>
+<rect x="225" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<g transform="translate(277 309) scale(0.895833)" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linejoin="round"><path d="M -30 0 L -14 -20 H 26 V 20 H -14 Z"/><path d="M -4 -9 L 14 9 M 14 -9 L -4 9"/></g>
+<text x="277" y="225" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-flick-hints.json" data-key-index="19" data-direction="left">
+<desc>[{&quot;type&quot;: &quot;smart_delete_default&quot;}]</desc>
+<text x="109" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">句読点まで</text>
+<text x="109" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">削除</text>
+<path d="M 221 309 L 194 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="194,309 199.573,304.764 199.573,313.236" fill="#7dd3fc"/>
+</g>
+<text x="445" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="277" y="399" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<text x="277" y="456" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：左へ連続削除</text>
+<rect x="550" y="108" width="506" height="380" rx="16" fill="#1b273b"/>
+<text x="803" y="139" text-anchor="middle" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">空白 キー</text>
+<text x="803" y="178" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#c6d2e4">タップ：半角空白</text>
+<rect x="751" y="266" width="104" height="86" rx="13" fill="#34435b"/>
+<text x="803" y="309" text-anchor="middle" dominant-baseline="central" font-size="43" font-weight="400" fill="#f8fafc">空白</text>
+<g data-source="godan-flick-hints.json" data-key-index="20" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;　&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="803" y="225" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">全角空白</text>
+<path d="M 803 262 L 803 247" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="803,247 807.236,252.573 798.764,252.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="20" data-direction="left">
+<desc>[{&quot;count&quot;: -1, &quot;type&quot;: &quot;move_cursor&quot;}]</desc>
+<text x="635" y="293" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">1文字左へ</text>
+<text x="635" y="325" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#7dd3fc">保持で連続</text>
+<path d="M 747 309 L 720 309" stroke="#7dd3fc" stroke-width="3" fill="none"/>
+<polygon points="720,309 725.573,304.764 725.573,313.236" fill="#7dd3fc"/>
+</g>
+<text x="971" y="309" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="400" fill="#6c7e97">—</text>
+<g data-source="godan-flick-hints.json" data-key-index="20" data-direction="bottom">
+<desc>[{&quot;text&quot;: &quot;\t&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="803" y="399" text-anchor="middle" dominant-baseline="central" font-size="27" font-weight="400" fill="#fde68a">Tab</text>
+<path d="M 803 356 L 803 372" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="803,372 798.764,366.427 807.236,366.427" fill="#fde68a"/>
+</g>
+<text x="803" y="456" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="400" fill="#d8b4fe">長押し：カーソルバー</text>
+<text x="32" y="525" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">空白の長押しでカーソルバー。指を離してから、そのバーで左右に移動します。</text>
+</g>
+</svg>

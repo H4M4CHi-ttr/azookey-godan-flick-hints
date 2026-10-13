@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="792" viewBox="0 0 1080 792" role="img" aria-labelledby="title description">
+<title id="title">GODAN（幅比較）｜配置</title>
+<desc id="description">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</desc>
+<metadata>{&quot;godan-android-width.json&quot;: &quot;cd4cebe6554350dee50451727fe8b5e43f5c9ea8fb89264f27edabcf30ad9f2f&quot;}</metadata>
+<rect width="1080" height="792" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（幅比較）｜配置</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</text>
+<rect x="28" y="113" width="171.478" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="0"><desc>☆123</desc>
+<text x="113.739" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">☆123</text>
+</g>
+<rect x="28" y="241" width="171.478" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="1"><desc>ABC</desc>
+<text x="113.739" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">ABC</text>
+</g>
+<rect x="28" y="369" width="171.478" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="2"><desc>あいう</desc>
+<text x="113.739" y="428" text-anchor="middle" dominant-baseline="central" font-size="44.0128" font-weight="400" fill="#f8fafc">あいう</text>
+</g>
+<rect x="28" y="497" width="171.478" height="246" rx="16" fill="#25344d"/>
+<g data-key-index="3"><desc>地球儀</desc>
+<g fill="none" stroke="#f8fafc" stroke-width="3"><circle cx="113.739" cy="620" r="21.1261"/><ellipse cx="113.739" cy="620" rx="10.5631" ry="21.1261"/><path d="M 92.613 620 H 134.865 M 95.5707 609.437 H 131.908 M 95.5707 630.563 H 131.908"/></g>
+</g>
+<rect x="207.478" y="113" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="4"><desc>A</desc>
+<text x="315.652" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">A</text>
+<text x="239.93" y="172" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">あっ</text>
+<text x="315.652" y="133" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">あん</text>
+<text x="391.374" y="172" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ゃ</text>
+</g>
+<rect x="207.478" y="241" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="5"><desc>I</desc>
+<text x="315.652" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">I</text>
+<text x="239.93" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">いっ</text>
+<text x="315.652" y="261" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">いん</text>
+<text x="391.374" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ぃ</text>
+</g>
+<rect x="207.478" y="369" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="6"><desc>U</desc>
+<text x="315.652" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">U</text>
+<text x="239.93" y="428" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">うっ</text>
+<text x="315.652" y="389" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">うん</text>
+<text x="391.374" y="428" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ゅ</text>
+</g>
+<rect x="207.478" y="497" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="7"><desc>E</desc>
+<text x="315.652" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">E</text>
+<text x="239.93" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">えっ</text>
+<text x="315.652" y="517" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">えん</text>
+<text x="391.374" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ぇ</text>
+</g>
+<rect x="207.478" y="625" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="8"><desc>O</desc>
+<text x="315.652" y="684" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">O</text>
+<text x="239.93" y="684" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">おっ</text>
+<text x="315.652" y="645" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">おん</text>
+<text x="391.374" y="684" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ょ</text>
+</g>
+<rect x="431.826" y="113" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="9"><desc>K</desc>
+<text x="540" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">K</text>
+<text x="540" y="133" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">Q</text>
+<text x="615.722" y="172" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">G</text>
+</g>
+<rect x="431.826" y="241" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="10"><desc>S</desc>
+<text x="540" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">S</text>
+<text x="540" y="261" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">J</text>
+<text x="615.722" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">Z</text>
+</g>
+<rect x="431.826" y="369" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="11"><desc>T</desc>
+<text x="540" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">T</text>
+<text x="540" y="389" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">C</text>
+<text x="615.722" y="428" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">D</text>
+</g>
+<rect x="431.826" y="497" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="12"><desc>N</desc>
+<text x="540" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">N</text>
+<text x="464.278" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">：</text>
+<text x="615.722" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">・</text>
+</g>
+<rect x="431.826" y="625" width="216.348" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="13"><desc>小゛゜</desc>
+<text x="540" y="684" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">小゛゜</text>
+</g>
+<rect x="656.174" y="113" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="14"><desc>H</desc>
+<text x="764.348" y="172" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">H</text>
+<text x="688.626" y="172" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">P</text>
+<text x="764.348" y="133" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">F</text>
+<text x="840.07" y="172" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">B</text>
+</g>
+<rect x="656.174" y="241" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="15"><desc>M</desc>
+<text x="764.348" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">M</text>
+<text x="688.626" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">/</text>
+<text x="764.348" y="261" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">L</text>
+<text x="840.07" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">ー</text>
+</g>
+<rect x="656.174" y="369" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="16"><desc>Y</desc>
+<text x="764.348" y="428" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">Y</text>
+<text x="688.626" y="428" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">(</text>
+<text x="764.348" y="389" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">X</text>
+<text x="840.07" y="428" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">)</text>
+</g>
+<rect x="656.174" y="497" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="17"><desc>R</desc>
+<text x="764.348" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">R</text>
+<text x="688.626" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">。</text>
+<text x="764.348" y="517" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">？</text>
+<text x="840.07" y="556" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">！</text>
+<text x="764.348" y="595" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">、</text>
+</g>
+<rect x="656.174" y="625" width="216.348" height="118" rx="16" fill="#34435b"/>
+<g data-key-index="18"><desc>W</desc>
+<text x="764.348" y="684" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">W</text>
+<text x="688.626" y="684" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">「</text>
+<text x="764.348" y="645" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">V</text>
+<text x="840.07" y="684" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">」</text>
+</g>
+<rect x="880.522" y="113" width="171.478" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="19"><desc>削除</desc>
+<g transform="translate(966.261 172) scale(1.08333)" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linejoin="round"><path d="M -30 0 L -14 -20 H 26 V 20 H -14 Z"/><path d="M -4 -9 L 14 9 M 14 -9 L -4 9"/></g>
+</g>
+<rect x="880.522" y="241" width="171.478" height="118" rx="16" fill="#25344d"/>
+<g data-key-index="20"><desc>空白</desc>
+<text x="966.261" y="300" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">空白</text>
+<text x="906.243" y="300" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">←</text>
+<text x="966.261" y="261" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">全角</text>
+<text x="966.261" y="339" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="400" fill="#fde68a">tab</text>
+</g>
+<rect x="880.522" y="369" width="171.478" height="374" rx="16" fill="#315788"/>
+<g data-key-index="21"><desc>改行</desc>
+<text x="966.261" y="556" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="400" fill="#f8fafc">改行</text>
+</g>
+<text x="32" y="772" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">配置とヒントの図です。色・文字サイズ・間隔・システムキー表示は本体設定に従います。</text>
+</g>
+</svg>

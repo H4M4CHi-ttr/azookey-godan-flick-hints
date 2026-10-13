@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="568" viewBox="0 0 1080 568" role="img" aria-labelledby="title description">
+<title id="title">QWERTY（英字）｜上スワイプ・長押し</title>
+<desc id="description">上の数字・記号を、↑スワイプまたは長押しで入力。タップは下の英字です。</desc>
+<metadata>{&quot;qwerty-gboard-like.json&quot;: &quot;660e43e39c5f3895d08c3aef259463e5767d054e564d2479b0d49e912050995a&quot;}</metadata>
+<rect width="1080" height="568" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">QWERTY（英字）｜上スワイプ・長押し</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">上の数字・記号を、↑スワイプまたは長押しで入力。タップは下の英字です。</text>
+<rect x="25" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="0" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;1&quot;}]</desc>
+<text x="72" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">1</text>
+<path d="M 72 170 L 72 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="72,154 76.2363,159.573 67.7637,159.573" fill="#fde68a"/>
+<text x="72" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">q</text>
+</g>
+<rect x="129" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="1" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;2&quot;}]</desc>
+<text x="176" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">2</text>
+<path d="M 176 170 L 176 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="176,154 180.236,159.573 171.764,159.573" fill="#fde68a"/>
+<text x="176" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">w</text>
+</g>
+<rect x="233" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="2" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;3&quot;}]</desc>
+<text x="280" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">3</text>
+<path d="M 280 170 L 280 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="280,154 284.236,159.573 275.764,159.573" fill="#fde68a"/>
+<text x="280" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">e</text>
+</g>
+<rect x="337" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="3" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;4&quot;}]</desc>
+<text x="384" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">4</text>
+<path d="M 384 170 L 384 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="384,154 388.236,159.573 379.764,159.573" fill="#fde68a"/>
+<text x="384" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">r</text>
+</g>
+<rect x="441" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="4" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;5&quot;}]</desc>
+<text x="488" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">5</text>
+<path d="M 488 170 L 488 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="488,154 492.236,159.573 483.764,159.573" fill="#fde68a"/>
+<text x="488" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">t</text>
+</g>
+<rect x="545" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="5" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;6&quot;}]</desc>
+<text x="592" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">6</text>
+<path d="M 592 170 L 592 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="592,154 596.236,159.573 587.764,159.573" fill="#fde68a"/>
+<text x="592" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">y</text>
+</g>
+<rect x="649" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="6" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;7&quot;}]</desc>
+<text x="696" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">7</text>
+<path d="M 696 170 L 696 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="696,154 700.236,159.573 691.764,159.573" fill="#fde68a"/>
+<text x="696" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">u</text>
+</g>
+<rect x="753" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="7" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;8&quot;}]</desc>
+<text x="800" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">8</text>
+<path d="M 800 170 L 800 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="800,154 804.236,159.573 795.764,159.573" fill="#fde68a"/>
+<text x="800" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">i</text>
+</g>
+<rect x="857" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="8" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;9&quot;}]</desc>
+<text x="904" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">9</text>
+<path d="M 904 170 L 904 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="904,154 908.236,159.573 899.764,159.573" fill="#fde68a"/>
+<text x="904" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">o</text>
+</g>
+<rect x="961" y="108" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="9" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;0&quot;}]</desc>
+<text x="1008" y="126" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">0</text>
+<path d="M 1008 170 L 1008 154" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="1008,154 1012.24,159.573 1003.76,159.573" fill="#fde68a"/>
+<text x="1008" y="189" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">p</text>
+</g>
+<rect x="77" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="10" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;@&quot;}]</desc>
+<text x="124" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">@</text>
+<path d="M 124 282 L 124 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="124,266 128.236,271.573 119.764,271.573" fill="#fde68a"/>
+<text x="124" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">a</text>
+</g>
+<rect x="181" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="11" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;#&quot;}]</desc>
+<text x="228" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">#</text>
+<path d="M 228 282 L 228 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="228,266 232.236,271.573 223.764,271.573" fill="#fde68a"/>
+<text x="228" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">s</text>
+</g>
+<rect x="285" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="12" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;¥&quot;}]</desc>
+<text x="332" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">¥</text>
+<path d="M 332 282 L 332 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="332,266 336.236,271.573 327.764,271.573" fill="#fde68a"/>
+<text x="332" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">d</text>
+</g>
+<rect x="389" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="13" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;_&quot;}]</desc>
+<text x="436" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">_</text>
+<path d="M 436 282 L 436 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="436,266 440.236,271.573 431.764,271.573" fill="#fde68a"/>
+<text x="436" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">f</text>
+</g>
+<rect x="493" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="14" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;&amp;&quot;}]</desc>
+<text x="540" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">&amp;</text>
+<path d="M 540 282 L 540 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="540,266 544.236,271.573 535.764,271.573" fill="#fde68a"/>
+<text x="540" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">g</text>
+</g>
+<rect x="597" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="15" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;-&quot;}]</desc>
+<text x="644" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">-</text>
+<path d="M 644 282 L 644 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="644,266 648.236,271.573 639.764,271.573" fill="#fde68a"/>
+<text x="644" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">h</text>
+</g>
+<rect x="701" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="16" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;+&quot;}]</desc>
+<text x="748" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">+</text>
+<path d="M 748 282 L 748 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="748,266 752.236,271.573 743.764,271.573" fill="#fde68a"/>
+<text x="748" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">j</text>
+</g>
+<rect x="805" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="17" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;(&quot;}]</desc>
+<text x="852" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">(</text>
+<path d="M 852 282 L 852 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="852,266 856.236,271.573 847.764,271.573" fill="#fde68a"/>
+<text x="852" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">k</text>
+</g>
+<rect x="909" y="220" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="18" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;)&quot;}]</desc>
+<text x="956" y="238" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">)</text>
+<path d="M 956 282 L 956 266" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="956,266 960.236,271.573 951.764,271.573" fill="#fde68a"/>
+<text x="956" y="301" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">l</text>
+</g>
+<rect x="181" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="19" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;*&quot;}]</desc>
+<text x="228" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">*</text>
+<path d="M 228 394 L 228 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="228,378 232.236,383.573 223.764,383.573" fill="#fde68a"/>
+<text x="228" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">z</text>
+</g>
+<rect x="285" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="20" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;\&quot;&quot;}]</desc>
+<text x="332" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">&quot;</text>
+<path d="M 332 394 L 332 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="332,378 336.236,383.573 327.764,383.573" fill="#fde68a"/>
+<text x="332" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">x</text>
+</g>
+<rect x="389" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="21" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;&#x27;&quot;}]</desc>
+<text x="436" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">&#x27;</text>
+<path d="M 436 394 L 436 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="436,378 440.236,383.573 431.764,383.573" fill="#fde68a"/>
+<text x="436" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">c</text>
+</g>
+<rect x="493" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="22" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;:&quot;}]</desc>
+<text x="540" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">:</text>
+<path d="M 540 394 L 540 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="540,378 544.236,383.573 535.764,383.573" fill="#fde68a"/>
+<text x="540" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">v</text>
+</g>
+<rect x="597" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="23" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;;&quot;}]</desc>
+<text x="644" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">;</text>
+<path d="M 644 394 L 644 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="644,378 648.236,383.573 639.764,383.573" fill="#fde68a"/>
+<text x="644" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">b</text>
+</g>
+<rect x="701" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="24" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;!&quot;}]</desc>
+<text x="748" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">!</text>
+<path d="M 748 394 L 748 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="748,378 752.236,383.573 743.764,383.573" fill="#fde68a"/>
+<text x="748" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">n</text>
+</g>
+<rect x="805" y="332" width="94" height="104" rx="12" fill="#34435b"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="25" data-direction="top">
+<desc>[{&quot;type&quot;: &quot;input&quot;, &quot;text&quot;: &quot;?&quot;}]</desc>
+<text x="852" y="350" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#fde68a">?</text>
+<path d="M 852 394 L 852 378" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="852,378 856.236,383.573 847.764,383.573" fill="#fde68a"/>
+<text x="852" y="413" text-anchor="middle" dominant-baseline="central" font-size="36" font-weight="400" fill="#f8fafc">m</text>
+</g>
+<rect x="32" y="454" width="1016" height="74" rx="16" fill="#25344d"/>
+<g data-source="qwerty-gboard-like.json" data-key-index="17" data-direction="bottom">
+<desc>[{&quot;type&quot;: &quot;direct_input&quot;, &quot;text&quot;: &quot;()&quot;}, {&quot;type&quot;: &quot;move_cursor&quot;, &quot;count&quot;: -1}]</desc>
+<text x="540" y="482" text-anchor="middle" dominant-baseline="central" font-size="31" font-weight="400" fill="#7dd3fc">k ↓  →  (│)　ペアを挿入・内側へ</text>
+</g>
+<text x="540" y="510" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">長押しは「(」だけ、下スワイプはペア入力。入力中の文字は先に確定します。</text>
+<text x="32" y="550" text-anchor="start" dominant-baseline="central" font-size="22" font-weight="400" fill="#c6d2e4">↑スワイプは長押しが成立する前に。Shift・Caps LockはazooKey標準の操作です。</text>
+</g>
+</svg>

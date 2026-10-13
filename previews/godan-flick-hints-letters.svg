@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1392" viewBox="0 0 1080 1392" role="img" aria-labelledby="title description">
+<title id="title">GODAN（ヒント付き）｜文字の全フリック</title>
+<desc id="description">キーの周りは実際の入力方向。子音＋母音で仮名に変換します。例：K → A で「か」</desc>
+<metadata>{&quot;godan-flick-hints.json&quot;: &quot;31afff76ef112c3d748604c2bbe4a0f650f10f6c46adb1133d70cf0c8fb74fae&quot;}</metadata>
+<rect width="1080" height="1392" rx="22" fill="#101827"/>
+<g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
+<text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（ヒント付き）｜文字の全フリック</text>
+<text x="32" y="81" text-anchor="start" dominant-baseline="central" font-size="24" font-weight="400" fill="#c6d2e4">キーの周りは実際の入力方向。子音＋母音で仮名に変換します。例：K → A で「か」</text>
+<rect x="24" y="108" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="192" y="135" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：あ</text>
+<rect x="147" y="208" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="192" y="246" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">A</text>
+<g data-source="godan-flick-hints.json" data-key-index="4" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;あっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyあっ&quot;: &quot;きゃっ&quot;, &quot;gyあっ&quot;: &quot;ぎゃっ&quot;, &quot;syあっ&quot;: &quot;しゃっ&quot;, &quot;shあっ&quot;: &quot;しゃっ&quot;, &quot;zyあっ&quot;: &quot;じゃっ&quot;, &quot;jyあっ&quot;: &quot;じゃっ&quot;, &quot;tyあっ&quot;: &quot;ちゃっ&quot;, &quot;chあっ&quot;: &quot;ちゃっ&quot;, &quot;dyあっ&quot;: &quot;ぢゃっ&quot;, &quot;thあっ&quot;: &quot;てゃっ&quot;, &quot;dhあっ&quot;: &quot;でゃっ&quot;, &quot;tsあっ&quot;: &quot;つぁっ&quot;, &quot;nyあっ&quot;: &quot;にゃっ&quot;, &quot;hyあっ&quot;: &quot;ひゃっ&quot;, &quot;fyあっ&quot;: &quot;ふゃっ&quot;, &quot;byあっ&quot;: &quot;びゃっ&quot;, &quot;pyあっ&quot;: &quot;ぴゃっ&quot;, &quot;myあっ&quot;: &quot;みゃっ&quot;, &quot;ryあっ&quot;: &quot;りゃっ&quot;, &quot;wyあっ&quot;: &quot;りゃっ&quot;, &quot;lwあっ&quot;: &quot;ゎっ&quot;, &quot;lyあっ&quot;: &quot;ゃっ&quot;, &quot;xwあっ&quot;: &quot;ゎっ&quot;, &quot;xyあっ&quot;: &quot;ゃっ&quot;, &quot;fあっ&quot;: &quot;ふぁっ&quot;, &quot;jあっ&quot;: &quot;じゃっ&quot;, &quot;lあっ&quot;: &quot;ぁっ&quot;, &quot;qあっ&quot;: &quot;くぁっ&quot;, &quot;vあっ&quot;: &quot;ゔぁっ&quot;, &quot;xあっ&quot;: &quot;ぁっ&quot;, &quot;kあっ&quot;: &quot;かっ&quot;, &quot;gあっ&quot;: &quot;がっ&quot;, &quot;sあっ&quot;: &quot;さっ&quot;, &quot;zあっ&quot;: &quot;ざっ&quot;, &quot;tあっ&quot;: &quot;たっ&quot;, &quot;dあっ&quot;: &quot;だっ&quot;, &quot;nあっ&quot;: &quot;なっ&quot;, &quot;hあっ&quot;: &quot;はっ&quot;, &quot;bあっ&quot;: &quot;ばっ&quot;, &quot;pあっ&quot;: &quot;ぱっ&quot;, &quot;mあっ&quot;: &quot;まっ&quot;, &quot;yあっ&quot;: &quot;やっ&quot;, &quot;rあっ&quot;: &quot;らっ&quot;, &quot;wあっ&quot;: &quot;わっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="75" y="246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">あっ</text>
+<path d="M 144 246 L 131 246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="131,246 136.573,241.764 136.573,250.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="4" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;あん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyあん&quot;: &quot;きゃん&quot;, &quot;gyあん&quot;: &quot;ぎゃん&quot;, &quot;syあん&quot;: &quot;しゃん&quot;, &quot;shあん&quot;: &quot;しゃん&quot;, &quot;zyあん&quot;: &quot;じゃん&quot;, &quot;jyあん&quot;: &quot;じゃん&quot;, &quot;tyあん&quot;: &quot;ちゃん&quot;, &quot;chあん&quot;: &quot;ちゃん&quot;, &quot;dyあん&quot;: &quot;ぢゃん&quot;, &quot;thあん&quot;: &quot;てゃん&quot;, &quot;dhあん&quot;: &quot;でゃん&quot;, &quot;tsあん&quot;: &quot;つぁん&quot;, &quot;nyあん&quot;: &quot;にゃん&quot;, &quot;hyあん&quot;: &quot;ひゃん&quot;, &quot;fyあん&quot;: &quot;ふゃん&quot;, &quot;byあん&quot;: &quot;びゃん&quot;, &quot;pyあん&quot;: &quot;ぴゃん&quot;, &quot;myあん&quot;: &quot;みゃん&quot;, &quot;ryあん&quot;: &quot;りゃん&quot;, &quot;wyあん&quot;: &quot;りゃん&quot;, &quot;lwあん&quot;: &quot;ゎん&quot;, &quot;lyあん&quot;: &quot;ゃん&quot;, &quot;xwあん&quot;: &quot;ゎん&quot;, &quot;xyあん&quot;: &quot;ゃん&quot;, &quot;fあん&quot;: &quot;ふぁん&quot;, &quot;jあん&quot;: &quot;じゃん&quot;, &quot;lあん&quot;: &quot;ぁん&quot;, &quot;qあん&quot;: &quot;くぁん&quot;, &quot;vあん&quot;: &quot;ゔぁん&quot;, &quot;xあん&quot;: &quot;ぁん&quot;, &quot;kあん&quot;: &quot;かん&quot;, &quot;gあん&quot;: &quot;がん&quot;, &quot;sあん&quot;: &quot;さん&quot;, &quot;zあん&quot;: &quot;ざん&quot;, &quot;tあん&quot;: &quot;たん&quot;, &quot;dあん&quot;: &quot;だん&quot;, &quot;nあん&quot;: &quot;なん&quot;, &quot;hあん&quot;: &quot;はん&quot;, &quot;bあん&quot;: &quot;ばん&quot;, &quot;pあん&quot;: &quot;ぱん&quot;, &quot;mあん&quot;: &quot;まん&quot;, &quot;yあん&quot;: &quot;やん&quot;, &quot;rあん&quot;: &quot;らん&quot;, &quot;wあん&quot;: &quot;わん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="192" y="177" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">あん</text>
+<path d="M 192 205 L 192 196" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="192,196 196.236,201.573 187.764,201.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="4" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ゃ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fゃ&quot;: &quot;ふゃ&quot;, &quot;jゃ&quot;: &quot;じゃ&quot;, &quot;lゃ&quot;: &quot;ゃ&quot;, &quot;qゃ&quot;: &quot;くゃ&quot;, &quot;vゃ&quot;: &quot;ゔゃ&quot;, &quot;xゃ&quot;: &quot;ゃ&quot;, &quot;kゃ&quot;: &quot;きゃ&quot;, &quot;gゃ&quot;: &quot;ぎゃ&quot;, &quot;sゃ&quot;: &quot;しゃ&quot;, &quot;zゃ&quot;: &quot;じゃ&quot;, &quot;tゃ&quot;: &quot;ちゃ&quot;, &quot;dゃ&quot;: &quot;ぢゃ&quot;, &quot;nゃ&quot;: &quot;にゃ&quot;, &quot;hゃ&quot;: &quot;ひゃ&quot;, &quot;bゃ&quot;: &quot;びゃ&quot;, &quot;pゃ&quot;: &quot;ぴゃ&quot;, &quot;mゃ&quot;: &quot;みゃ&quot;, &quot;yゃ&quot;: &quot;いゃ&quot;, &quot;rゃ&quot;: &quot;りゃ&quot;, &quot;wゃ&quot;: &quot;うゎ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="309" y="246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ゃ</text>
+<path d="M 240 246 L 253 246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="253,246 247.427,250.236 247.427,241.764" fill="#fde68a"/>
+</g>
+<rect x="24" y="358" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="192" y="385" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：い</text>
+<rect x="147" y="458" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="192" y="496" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">I</text>
+<g data-source="godan-flick-hints.json" data-key-index="5" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;いっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyいっ&quot;: &quot;きぃっ&quot;, &quot;gyいっ&quot;: &quot;ぎぃっ&quot;, &quot;syいっ&quot;: &quot;しぃっ&quot;, &quot;shいっ&quot;: &quot;しっ&quot;, &quot;zyいっ&quot;: &quot;じぃっ&quot;, &quot;jyいっ&quot;: &quot;じぃっ&quot;, &quot;tyいっ&quot;: &quot;ちぃっ&quot;, &quot;chいっ&quot;: &quot;ちっ&quot;, &quot;dyいっ&quot;: &quot;ぢぃっ&quot;, &quot;thいっ&quot;: &quot;てぃっ&quot;, &quot;dhいっ&quot;: &quot;でぃっ&quot;, &quot;tsいっ&quot;: &quot;つぃっ&quot;, &quot;nyいっ&quot;: &quot;にぃっ&quot;, &quot;hyいっ&quot;: &quot;ひぃっ&quot;, &quot;fyいっ&quot;: &quot;ふぃっ&quot;, &quot;byいっ&quot;: &quot;びぃっ&quot;, &quot;pyいっ&quot;: &quot;ぴぃっ&quot;, &quot;myいっ&quot;: &quot;みぃっ&quot;, &quot;ryいっ&quot;: &quot;りぃっ&quot;, &quot;wyいっ&quot;: &quot;ゐっ&quot;, &quot;lyいっ&quot;: &quot;ぃっ&quot;, &quot;xyいっ&quot;: &quot;ぃっ&quot;, &quot;fいっ&quot;: &quot;ふぃっ&quot;, &quot;jいっ&quot;: &quot;じっ&quot;, &quot;lいっ&quot;: &quot;ぃっ&quot;, &quot;qいっ&quot;: &quot;くぃっ&quot;, &quot;vいっ&quot;: &quot;ゔぃっ&quot;, &quot;xいっ&quot;: &quot;ぃっ&quot;, &quot;kいっ&quot;: &quot;きっ&quot;, &quot;gいっ&quot;: &quot;ぎっ&quot;, &quot;sいっ&quot;: &quot;しっ&quot;, &quot;zいっ&quot;: &quot;じっ&quot;, &quot;tいっ&quot;: &quot;ちっ&quot;, &quot;dいっ&quot;: &quot;ぢっ&quot;, &quot;nいっ&quot;: &quot;にっ&quot;, &quot;hいっ&quot;: &quot;ひっ&quot;, &quot;bいっ&quot;: &quot;びっ&quot;, &quot;pいっ&quot;: &quot;ぴっ&quot;, &quot;mいっ&quot;: &quot;みっ&quot;, &quot;rいっ&quot;: &quot;りっ&quot;, &quot;wいっ&quot;: &quot;うぃっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="75" y="496" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">いっ</text>
+<path d="M 144 496 L 131 496" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="131,496 136.573,491.764 136.573,500.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="5" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;いん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyいん&quot;: &quot;きぃん&quot;, &quot;gyいん&quot;: &quot;ぎぃん&quot;, &quot;syいん&quot;: &quot;しぃん&quot;, &quot;shいん&quot;: &quot;しん&quot;, &quot;zyいん&quot;: &quot;じぃん&quot;, &quot;jyいん&quot;: &quot;じぃん&quot;, &quot;tyいん&quot;: &quot;ちぃん&quot;, &quot;chいん&quot;: &quot;ちん&quot;, &quot;dyいん&quot;: &quot;ぢぃん&quot;, &quot;thいん&quot;: &quot;てぃん&quot;, &quot;dhいん&quot;: &quot;でぃん&quot;, &quot;tsいん&quot;: &quot;つぃん&quot;, &quot;nyいん&quot;: &quot;にぃん&quot;, &quot;hyいん&quot;: &quot;ひぃん&quot;, &quot;fyいん&quot;: &quot;ふぃん&quot;, &quot;byいん&quot;: &quot;びぃん&quot;, &quot;pyいん&quot;: &quot;ぴぃん&quot;, &quot;myいん&quot;: &quot;みぃん&quot;, &quot;ryいん&quot;: &quot;りぃん&quot;, &quot;wyいん&quot;: &quot;ゐん&quot;, &quot;lyいん&quot;: &quot;ぃん&quot;, &quot;xyいん&quot;: &quot;ぃん&quot;, &quot;fいん&quot;: &quot;ふぃん&quot;, &quot;jいん&quot;: &quot;じん&quot;, &quot;lいん&quot;: &quot;ぃん&quot;, &quot;qいん&quot;: &quot;くぃん&quot;, &quot;vいん&quot;: &quot;ゔぃん&quot;, &quot;xいん&quot;: &quot;ぃん&quot;, &quot;kいん&quot;: &quot;きん&quot;, &quot;gいん&quot;: &quot;ぎん&quot;, &quot;sいん&quot;: &quot;しん&quot;, &quot;zいん&quot;: &quot;じん&quot;, &quot;tいん&quot;: &quot;ちん&quot;, &quot;dいん&quot;: &quot;ぢん&quot;, &quot;nいん&quot;: &quot;にん&quot;, &quot;hいん&quot;: &quot;ひん&quot;, &quot;bいん&quot;: &quot;びん&quot;, &quot;pいん&quot;: &quot;ぴん&quot;, &quot;mいん&quot;: &quot;みん&quot;, &quot;rいん&quot;: &quot;りん&quot;, &quot;wいん&quot;: &quot;うぃん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="192" y="427" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">いん</text>
+<path d="M 192 455 L 192 446" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="192,446 196.236,451.573 187.764,451.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="5" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ぃ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fぃ&quot;: &quot;ふぃ&quot;, &quot;jぃ&quot;: &quot;じぃ&quot;, &quot;lぃ&quot;: &quot;ぃ&quot;, &quot;qぃ&quot;: &quot;くぃ&quot;, &quot;vぃ&quot;: &quot;ゔぃ&quot;, &quot;xぃ&quot;: &quot;ぃ&quot;, &quot;kぃ&quot;: &quot;きぃ&quot;, &quot;gぃ&quot;: &quot;ぎぃ&quot;, &quot;sぃ&quot;: &quot;しぃ&quot;, &quot;zぃ&quot;: &quot;じぃ&quot;, &quot;tぃ&quot;: &quot;ちぃ&quot;, &quot;dぃ&quot;: &quot;ぢぃ&quot;, &quot;nぃ&quot;: &quot;にぃ&quot;, &quot;hぃ&quot;: &quot;ひぃ&quot;, &quot;bぃ&quot;: &quot;びぃ&quot;, &quot;pぃ&quot;: &quot;ぴぃ&quot;, &quot;mぃ&quot;: &quot;みぃ&quot;, &quot;yぃ&quot;: &quot;いぃ&quot;, &quot;rぃ&quot;: &quot;りぃ&quot;, &quot;wぃ&quot;: &quot;うぃ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="309" y="496" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ぃ</text>
+<path d="M 240 496 L 253 496" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="253,496 247.427,500.236 247.427,491.764" fill="#fde68a"/>
+</g>
+<rect x="24" y="608" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="192" y="635" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：う</text>
+<rect x="147" y="708" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="192" y="746" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">U</text>
+<g data-source="godan-flick-hints.json" data-key-index="6" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;うっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyうっ&quot;: &quot;きゅっ&quot;, &quot;gyうっ&quot;: &quot;ぎゅっ&quot;, &quot;syうっ&quot;: &quot;しゅっ&quot;, &quot;shうっ&quot;: &quot;しゅっ&quot;, &quot;zyうっ&quot;: &quot;じゅっ&quot;, &quot;jyうっ&quot;: &quot;じゅっ&quot;, &quot;tyうっ&quot;: &quot;ちゅっ&quot;, &quot;chうっ&quot;: &quot;ちゅっ&quot;, &quot;dyうっ&quot;: &quot;ぢゅっ&quot;, &quot;thうっ&quot;: &quot;てゅっ&quot;, &quot;dhうっ&quot;: &quot;でゅっ&quot;, &quot;tsうっ&quot;: &quot;つっ&quot;, &quot;nyうっ&quot;: &quot;にゅっ&quot;, &quot;hyうっ&quot;: &quot;ひゅっ&quot;, &quot;fyうっ&quot;: &quot;ふゅっ&quot;, &quot;byうっ&quot;: &quot;びゅっ&quot;, &quot;pyうっ&quot;: &quot;ぴゅっ&quot;, &quot;myうっ&quot;: &quot;みゅっ&quot;, &quot;ryうっ&quot;: &quot;りゅっ&quot;, &quot;lyうっ&quot;: &quot;ゅっ&quot;, &quot;xyうっ&quot;: &quot;ゅっ&quot;, &quot;fうっ&quot;: &quot;ふっ&quot;, &quot;jうっ&quot;: &quot;じゅっ&quot;, &quot;lうっ&quot;: &quot;ぅっ&quot;, &quot;qうっ&quot;: &quot;くぅっ&quot;, &quot;vうっ&quot;: &quot;ゔっ&quot;, &quot;xうっ&quot;: &quot;ぅっ&quot;, &quot;kうっ&quot;: &quot;くっ&quot;, &quot;gうっ&quot;: &quot;ぐっ&quot;, &quot;sうっ&quot;: &quot;すっ&quot;, &quot;zうっ&quot;: &quot;ずっ&quot;, &quot;tうっ&quot;: &quot;つっ&quot;, &quot;dうっ&quot;: &quot;づっ&quot;, &quot;nうっ&quot;: &quot;ぬっ&quot;, &quot;hうっ&quot;: &quot;ふっ&quot;, &quot;bうっ&quot;: &quot;ぶっ&quot;, &quot;pうっ&quot;: &quot;ぷっ&quot;, &quot;mうっ&quot;: &quot;むっ&quot;, &quot;yうっ&quot;: &quot;ゆっ&quot;, &quot;rうっ&quot;: &quot;るっ&quot;, &quot;wうっ&quot;: &quot;うっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="75" y="746" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">うっ</text>
+<path d="M 144 746 L 131 746" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="131,746 136.573,741.764 136.573,750.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="6" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;うん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyうん&quot;: &quot;きゅん&quot;, &quot;gyうん&quot;: &quot;ぎゅん&quot;, &quot;syうん&quot;: &quot;しゅん&quot;, &quot;shうん&quot;: &quot;しゅん&quot;, &quot;zyうん&quot;: &quot;じゅん&quot;, &quot;jyうん&quot;: &quot;じゅん&quot;, &quot;tyうん&quot;: &quot;ちゅん&quot;, &quot;chうん&quot;: &quot;ちゅん&quot;, &quot;dyうん&quot;: &quot;ぢゅん&quot;, &quot;thうん&quot;: &quot;てゅん&quot;, &quot;dhうん&quot;: &quot;でゅん&quot;, &quot;tsうん&quot;: &quot;つん&quot;, &quot;nyうん&quot;: &quot;にゅん&quot;, &quot;hyうん&quot;: &quot;ひゅん&quot;, &quot;fyうん&quot;: &quot;ふゅん&quot;, &quot;byうん&quot;: &quot;びゅん&quot;, &quot;pyうん&quot;: &quot;ぴゅん&quot;, &quot;myうん&quot;: &quot;みゅん&quot;, &quot;ryうん&quot;: &quot;りゅん&quot;, &quot;lyうん&quot;: &quot;ゅん&quot;, &quot;xyうん&quot;: &quot;ゅん&quot;, &quot;fうん&quot;: &quot;ふん&quot;, &quot;jうん&quot;: &quot;じゅん&quot;, &quot;lうん&quot;: &quot;ぅん&quot;, &quot;qうん&quot;: &quot;くぅん&quot;, &quot;vうん&quot;: &quot;ゔん&quot;, &quot;xうん&quot;: &quot;ぅん&quot;, &quot;kうん&quot;: &quot;くん&quot;, &quot;gうん&quot;: &quot;ぐん&quot;, &quot;sうん&quot;: &quot;すん&quot;, &quot;zうん&quot;: &quot;ずん&quot;, &quot;tうん&quot;: &quot;つん&quot;, &quot;dうん&quot;: &quot;づん&quot;, &quot;nうん&quot;: &quot;ぬん&quot;, &quot;hうん&quot;: &quot;ふん&quot;, &quot;bうん&quot;: &quot;ぶん&quot;, &quot;pうん&quot;: &quot;ぷん&quot;, &quot;mうん&quot;: &quot;むん&quot;, &quot;yうん&quot;: &quot;ゆん&quot;, &quot;rうん&quot;: &quot;るん&quot;, &quot;wうん&quot;: &quot;うん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="192" y="677" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">うん</text>
+<path d="M 192 705 L 192 696" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="192,696 196.236,701.573 187.764,701.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="6" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ゅ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fゅ&quot;: &quot;ふゅ&quot;, &quot;jゅ&quot;: &quot;じゅ&quot;, &quot;lゅ&quot;: &quot;ゅ&quot;, &quot;qゅ&quot;: &quot;くゅ&quot;, &quot;vゅ&quot;: &quot;ゔゅ&quot;, &quot;xゅ&quot;: &quot;ゅ&quot;, &quot;kゅ&quot;: &quot;きゅ&quot;, &quot;gゅ&quot;: &quot;ぎゅ&quot;, &quot;sゅ&quot;: &quot;しゅ&quot;, &quot;zゅ&quot;: &quot;じゅ&quot;, &quot;tゅ&quot;: &quot;ちゅ&quot;, &quot;dゅ&quot;: &quot;ぢゅ&quot;, &quot;nゅ&quot;: &quot;にゅ&quot;, &quot;hゅ&quot;: &quot;ひゅ&quot;, &quot;bゅ&quot;: &quot;びゅ&quot;, &quot;pゅ&quot;: &quot;ぴゅ&quot;, &quot;mゅ&quot;: &quot;みゅ&quot;, &quot;yゅ&quot;: &quot;いゅ&quot;, &quot;rゅ&quot;: &quot;りゅ&quot;, &quot;wゅ&quot;: &quot;うぅ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="309" y="746" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ゅ</text>
+<path d="M 240 746 L 253 746" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="253,746 247.427,750.236 247.427,741.764" fill="#fde68a"/>
+</g>
+<rect x="24" y="858" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="192" y="885" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：え</text>
+<rect x="147" y="958" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="192" y="996" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">E</text>
+<g data-source="godan-flick-hints.json" data-key-index="7" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;えっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyえっ&quot;: &quot;きぇっ&quot;, &quot;gyえっ&quot;: &quot;ぎぇっ&quot;, &quot;syえっ&quot;: &quot;しぇっ&quot;, &quot;shえっ&quot;: &quot;しぇっ&quot;, &quot;zyえっ&quot;: &quot;じぇっ&quot;, &quot;jyえっ&quot;: &quot;じぇっ&quot;, &quot;tyえっ&quot;: &quot;ちぇっ&quot;, &quot;chえっ&quot;: &quot;ちぇっ&quot;, &quot;dyえっ&quot;: &quot;ぢぇっ&quot;, &quot;thえっ&quot;: &quot;てぇっ&quot;, &quot;dhえっ&quot;: &quot;でぇっ&quot;, &quot;tsえっ&quot;: &quot;つぇっ&quot;, &quot;nyえっ&quot;: &quot;にぇっ&quot;, &quot;hyえっ&quot;: &quot;ひぇっ&quot;, &quot;fyえっ&quot;: &quot;ふぇっ&quot;, &quot;byえっ&quot;: &quot;びぇっ&quot;, &quot;pyえっ&quot;: &quot;ぴぇっ&quot;, &quot;myえっ&quot;: &quot;みぇっ&quot;, &quot;ryえっ&quot;: &quot;りぇっ&quot;, &quot;wyえっ&quot;: &quot;ゑっ&quot;, &quot;lyえっ&quot;: &quot;ぇっ&quot;, &quot;xyえっ&quot;: &quot;ぇっ&quot;, &quot;fえっ&quot;: &quot;ふぇっ&quot;, &quot;jえっ&quot;: &quot;じぇっ&quot;, &quot;lえっ&quot;: &quot;ぇっ&quot;, &quot;qえっ&quot;: &quot;くぇっ&quot;, &quot;vえっ&quot;: &quot;ゔぇっ&quot;, &quot;xえっ&quot;: &quot;ぇっ&quot;, &quot;kえっ&quot;: &quot;けっ&quot;, &quot;gえっ&quot;: &quot;げっ&quot;, &quot;sえっ&quot;: &quot;せっ&quot;, &quot;zえっ&quot;: &quot;ぜっ&quot;, &quot;tえっ&quot;: &quot;てっ&quot;, &quot;dえっ&quot;: &quot;でっ&quot;, &quot;nえっ&quot;: &quot;ねっ&quot;, &quot;hえっ&quot;: &quot;へっ&quot;, &quot;bえっ&quot;: &quot;べっ&quot;, &quot;pえっ&quot;: &quot;ぺっ&quot;, &quot;mえっ&quot;: &quot;めっ&quot;, &quot;rえっ&quot;: &quot;れっ&quot;, &quot;wえっ&quot;: &quot;うぇっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="75" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">えっ</text>
+<path d="M 144 996 L 131 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="131,996 136.573,991.764 136.573,1000.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="7" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;えん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyえん&quot;: &quot;きぇん&quot;, &quot;gyえん&quot;: &quot;ぎぇん&quot;, &quot;syえん&quot;: &quot;しぇん&quot;, &quot;shえん&quot;: &quot;しぇん&quot;, &quot;zyえん&quot;: &quot;じぇん&quot;, &quot;jyえん&quot;: &quot;じぇん&quot;, &quot;tyえん&quot;: &quot;ちぇん&quot;, &quot;chえん&quot;: &quot;ちぇん&quot;, &quot;dyえん&quot;: &quot;ぢぇん&quot;, &quot;thえん&quot;: &quot;てぇん&quot;, &quot;dhえん&quot;: &quot;でぇん&quot;, &quot;tsえん&quot;: &quot;つぇん&quot;, &quot;nyえん&quot;: &quot;にぇん&quot;, &quot;hyえん&quot;: &quot;ひぇん&quot;, &quot;fyえん&quot;: &quot;ふぇん&quot;, &quot;byえん&quot;: &quot;びぇん&quot;, &quot;pyえん&quot;: &quot;ぴぇん&quot;, &quot;myえん&quot;: &quot;みぇん&quot;, &quot;ryえん&quot;: &quot;りぇん&quot;, &quot;wyえん&quot;: &quot;ゑん&quot;, &quot;lyえん&quot;: &quot;ぇん&quot;, &quot;xyえん&quot;: &quot;ぇん&quot;, &quot;fえん&quot;: &quot;ふぇん&quot;, &quot;jえん&quot;: &quot;じぇん&quot;, &quot;lえん&quot;: &quot;ぇん&quot;, &quot;qえん&quot;: &quot;くぇん&quot;, &quot;vえん&quot;: &quot;ゔぇん&quot;, &quot;xえん&quot;: &quot;ぇん&quot;, &quot;kえん&quot;: &quot;けん&quot;, &quot;gえん&quot;: &quot;げん&quot;, &quot;sえん&quot;: &quot;せん&quot;, &quot;zえん&quot;: &quot;ぜん&quot;, &quot;tえん&quot;: &quot;てん&quot;, &quot;dえん&quot;: &quot;でん&quot;, &quot;nえん&quot;: &quot;ねん&quot;, &quot;hえん&quot;: &quot;へん&quot;, &quot;bえん&quot;: &quot;べん&quot;, &quot;pえん&quot;: &quot;ぺん&quot;, &quot;mえん&quot;: &quot;めん&quot;, &quot;rえん&quot;: &quot;れん&quot;, &quot;wえん&quot;: &quot;うぇん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="192" y="927" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">えん</text>
+<path d="M 192 955 L 192 946" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="192,946 196.236,951.573 187.764,951.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="7" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ぇ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fぇ&quot;: &quot;ふぇ&quot;, &quot;jぇ&quot;: &quot;じぇ&quot;, &quot;lぇ&quot;: &quot;ぇ&quot;, &quot;qぇ&quot;: &quot;くぇ&quot;, &quot;vぇ&quot;: &quot;ゔぇ&quot;, &quot;xぇ&quot;: &quot;ぇ&quot;, &quot;kぇ&quot;: &quot;きぇ&quot;, &quot;gぇ&quot;: &quot;ぎぇ&quot;, &quot;sぇ&quot;: &quot;しぇ&quot;, &quot;zぇ&quot;: &quot;じぇ&quot;, &quot;tぇ&quot;: &quot;ちぇ&quot;, &quot;dぇ&quot;: &quot;ぢぇ&quot;, &quot;nぇ&quot;: &quot;にぇ&quot;, &quot;hぇ&quot;: &quot;ひぇ&quot;, &quot;bぇ&quot;: &quot;びぇ&quot;, &quot;pぇ&quot;: &quot;ぴぇ&quot;, &quot;mぇ&quot;: &quot;みぇ&quot;, &quot;yぇ&quot;: &quot;いぇ&quot;, &quot;rぇ&quot;: &quot;りぇ&quot;, &quot;wぇ&quot;: &quot;うぇ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="309" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ぇ</text>
+<path d="M 240 996 L 253 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="253,996 247.427,1000.24 247.427,991.764" fill="#fde68a"/>
+</g>
+<rect x="24" y="1108" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="192" y="1135" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：お</text>
+<rect x="147" y="1208" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="192" y="1246" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">O</text>
+<g data-source="godan-flick-hints.json" data-key-index="8" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;おっ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyおっ&quot;: &quot;きょっ&quot;, &quot;gyおっ&quot;: &quot;ぎょっ&quot;, &quot;syおっ&quot;: &quot;しょっ&quot;, &quot;shおっ&quot;: &quot;しょっ&quot;, &quot;zyおっ&quot;: &quot;じょっ&quot;, &quot;jyおっ&quot;: &quot;じょっ&quot;, &quot;tyおっ&quot;: &quot;ちょっ&quot;, &quot;chおっ&quot;: &quot;ちょっ&quot;, &quot;dyおっ&quot;: &quot;ぢょっ&quot;, &quot;thおっ&quot;: &quot;てょっ&quot;, &quot;dhおっ&quot;: &quot;でょっ&quot;, &quot;tsおっ&quot;: &quot;つぉっ&quot;, &quot;nyおっ&quot;: &quot;にょっ&quot;, &quot;hyおっ&quot;: &quot;ひょっ&quot;, &quot;fyおっ&quot;: &quot;ふょっ&quot;, &quot;byおっ&quot;: &quot;びょっ&quot;, &quot;pyおっ&quot;: &quot;ぴょっ&quot;, &quot;myおっ&quot;: &quot;みょっ&quot;, &quot;ryおっ&quot;: &quot;りょっ&quot;, &quot;lyおっ&quot;: &quot;ょっ&quot;, &quot;xyおっ&quot;: &quot;ょっ&quot;, &quot;fおっ&quot;: &quot;ふぉっ&quot;, &quot;jおっ&quot;: &quot;じょっ&quot;, &quot;lおっ&quot;: &quot;ぉっ&quot;, &quot;qおっ&quot;: &quot;くぉっ&quot;, &quot;vおっ&quot;: &quot;ゔぉっ&quot;, &quot;xおっ&quot;: &quot;ぉっ&quot;, &quot;kおっ&quot;: &quot;こっ&quot;, &quot;gおっ&quot;: &quot;ごっ&quot;, &quot;sおっ&quot;: &quot;そっ&quot;, &quot;zおっ&quot;: &quot;ぞっ&quot;, &quot;tおっ&quot;: &quot;とっ&quot;, &quot;dおっ&quot;: &quot;どっ&quot;, &quot;nおっ&quot;: &quot;のっ&quot;, &quot;hおっ&quot;: &quot;ほっ&quot;, &quot;bおっ&quot;: &quot;ぼっ&quot;, &quot;pおっ&quot;: &quot;ぽっ&quot;, &quot;mおっ&quot;: &quot;もっ&quot;, &quot;yおっ&quot;: &quot;よっ&quot;, &quot;rおっ&quot;: &quot;ろっ&quot;, &quot;wおっ&quot;: &quot;をっ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="75" y="1246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">おっ</text>
+<path d="M 144 1246 L 131 1246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="131,1246 136.573,1241.76 136.573,1250.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="8" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;おん&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;kyおん&quot;: &quot;きょん&quot;, &quot;gyおん&quot;: &quot;ぎょん&quot;, &quot;syおん&quot;: &quot;しょん&quot;, &quot;shおん&quot;: &quot;しょん&quot;, &quot;zyおん&quot;: &quot;じょん&quot;, &quot;jyおん&quot;: &quot;じょん&quot;, &quot;tyおん&quot;: &quot;ちょん&quot;, &quot;chおん&quot;: &quot;ちょん&quot;, &quot;dyおん&quot;: &quot;ぢょん&quot;, &quot;thおん&quot;: &quot;てょん&quot;, &quot;dhおん&quot;: &quot;でょん&quot;, &quot;tsおん&quot;: &quot;つぉん&quot;, &quot;nyおん&quot;: &quot;にょん&quot;, &quot;hyおん&quot;: &quot;ひょん&quot;, &quot;fyおん&quot;: &quot;ふょん&quot;, &quot;byおん&quot;: &quot;びょん&quot;, &quot;pyおん&quot;: &quot;ぴょん&quot;, &quot;myおん&quot;: &quot;みょん&quot;, &quot;ryおん&quot;: &quot;りょん&quot;, &quot;lyおん&quot;: &quot;ょん&quot;, &quot;xyおん&quot;: &quot;ょん&quot;, &quot;fおん&quot;: &quot;ふぉん&quot;, &quot;jおん&quot;: &quot;じょん&quot;, &quot;lおん&quot;: &quot;ぉん&quot;, &quot;qおん&quot;: &quot;くぉん&quot;, &quot;vおん&quot;: &quot;ゔぉん&quot;, &quot;xおん&quot;: &quot;ぉん&quot;, &quot;kおん&quot;: &quot;こん&quot;, &quot;gおん&quot;: &quot;ごん&quot;, &quot;sおん&quot;: &quot;そん&quot;, &quot;zおん&quot;: &quot;ぞん&quot;, &quot;tおん&quot;: &quot;とん&quot;, &quot;dおん&quot;: &quot;どん&quot;, &quot;nおん&quot;: &quot;のん&quot;, &quot;hおん&quot;: &quot;ほん&quot;, &quot;bおん&quot;: &quot;ぼん&quot;, &quot;pおん&quot;: &quot;ぽん&quot;, &quot;mおん&quot;: &quot;もん&quot;, &quot;yおん&quot;: &quot;よん&quot;, &quot;rおん&quot;: &quot;ろん&quot;, &quot;wおん&quot;: &quot;をん&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="192" y="1177" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">おん</text>
+<path d="M 192 1205 L 192 1196" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="192,1196 196.236,1201.57 187.764,1201.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="8" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ょ&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;fょ&quot;: &quot;ふょ&quot;, &quot;jょ&quot;: &quot;じょ&quot;, &quot;lょ&quot;: &quot;ょ&quot;, &quot;qょ&quot;: &quot;くょ&quot;, &quot;vょ&quot;: &quot;ゔょ&quot;, &quot;xょ&quot;: &quot;ょ&quot;, &quot;kょ&quot;: &quot;きょ&quot;, &quot;gょ&quot;: &quot;ぎょ&quot;, &quot;sょ&quot;: &quot;しょ&quot;, &quot;zょ&quot;: &quot;じょ&quot;, &quot;tょ&quot;: &quot;ちょ&quot;, &quot;dょ&quot;: &quot;ぢょ&quot;, &quot;nょ&quot;: &quot;にょ&quot;, &quot;hょ&quot;: &quot;ひょ&quot;, &quot;bょ&quot;: &quot;びょ&quot;, &quot;pょ&quot;: &quot;ぴょ&quot;, &quot;mょ&quot;: &quot;みょ&quot;, &quot;yょ&quot;: &quot;いょ&quot;, &quot;rょ&quot;: &quot;りょ&quot;, &quot;wょ&quot;: &quot;うぅ&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="309" y="1246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ょ</text>
+<path d="M 240 1246 L 253 1246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="253,1246 247.427,1250.24 247.427,1241.76" fill="#fde68a"/>
+</g>
+<rect x="372" y="108" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="540" y="135" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：k</text>
+<rect x="495" y="208" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="540" y="246" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">K</text>
+<g data-source="godan-flick-hints.json" data-key-index="9" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;q&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;qq&quot;: &quot;っq&quot;, &quot;nq&quot;: &quot;んq&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="540" y="177" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">Q</text>
+<path d="M 540 205 L 540 196" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="540,196 544.236,201.573 535.764,201.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="9" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;g&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;gg&quot;: &quot;っg&quot;, &quot;ng&quot;: &quot;んg&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="657" y="246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">G</text>
+<path d="M 588 246 L 601 246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="601,246 595.427,250.236 595.427,241.764" fill="#fde68a"/>
+</g>
+<rect x="372" y="358" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="540" y="385" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：s</text>
+<rect x="495" y="458" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="540" y="496" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">S</text>
+<g data-source="godan-flick-hints.json" data-key-index="10" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;j&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;jj&quot;: &quot;っj&quot;, &quot;nj&quot;: &quot;んj&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="540" y="427" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">J</text>
+<path d="M 540 455 L 540 446" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="540,446 544.236,451.573 535.764,451.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="10" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;z&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;zz&quot;: &quot;っz&quot;, &quot;nz&quot;: &quot;んz&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="657" y="496" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">Z</text>
+<path d="M 588 496 L 601 496" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="601,496 595.427,500.236 595.427,491.764" fill="#fde68a"/>
+</g>
+<rect x="372" y="608" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="540" y="635" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：t</text>
+<rect x="495" y="708" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="540" y="746" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">T</text>
+<g data-source="godan-flick-hints.json" data-key-index="11" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;c&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;cc&quot;: &quot;っc&quot;, &quot;nc&quot;: &quot;んc&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="540" y="677" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">C</text>
+<path d="M 540 705 L 540 696" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="540,696 544.236,701.573 535.764,701.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="11" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;d&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;dd&quot;: &quot;っd&quot;, &quot;nd&quot;: &quot;んd&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="657" y="746" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">D</text>
+<path d="M 588 746 L 601 746" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="601,746 595.427,750.236 595.427,741.764" fill="#fde68a"/>
+</g>
+<rect x="372" y="858" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="540" y="885" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：n</text>
+<rect x="495" y="958" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="540" y="996" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">N</text>
+<g data-source="godan-flick-hints.json" data-key-index="12" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;：&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="423" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">：</text>
+<path d="M 492 996 L 479 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="479,996 484.573,991.764 484.573,1000.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="12" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;・&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="657" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">・</text>
+<path d="M 588 996 L 601 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="601,996 595.427,1000.24 595.427,991.764" fill="#fde68a"/>
+</g>
+<rect x="720" y="108" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="888" y="135" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：h</text>
+<rect x="843" y="208" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="888" y="246" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">H</text>
+<g data-source="godan-flick-hints.json" data-key-index="14" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;p&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;pp&quot;: &quot;っp&quot;, &quot;np&quot;: &quot;んp&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="771" y="246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">P</text>
+<path d="M 840 246 L 827 246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="827,246 832.573,241.764 832.573,250.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="14" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;f&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;ff&quot;: &quot;っf&quot;, &quot;nf&quot;: &quot;んf&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="888" y="177" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">F</text>
+<path d="M 888 205 L 888 196" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,196 892.236,201.573 883.764,201.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="14" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;b&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;bb&quot;: &quot;っb&quot;, &quot;nb&quot;: &quot;んb&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="1005" y="246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">B</text>
+<path d="M 936 246 L 949 246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="949,246 943.427,250.236 943.427,241.764" fill="#fde68a"/>
+</g>
+<rect x="720" y="358" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="888" y="385" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：m</text>
+<rect x="843" y="458" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="888" y="496" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">M</text>
+<g data-source="godan-flick-hints.json" data-key-index="15" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;/&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="771" y="496" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">/</text>
+<path d="M 840 496 L 827 496" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="827,496 832.573,491.764 832.573,500.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="15" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;l&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;ll&quot;: &quot;っl&quot;, &quot;nl&quot;: &quot;んl&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="888" y="427" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">L</text>
+<path d="M 888 455 L 888 446" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,446 892.236,451.573 883.764,451.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="15" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;ー&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="1005" y="496" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">ー</text>
+<path d="M 936 496 L 949 496" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="949,496 943.427,500.236 943.427,491.764" fill="#fde68a"/>
+</g>
+<rect x="720" y="608" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="888" y="635" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：y</text>
+<rect x="843" y="708" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="888" y="746" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">Y</text>
+<g data-source="godan-flick-hints.json" data-key-index="16" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;(&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="771" y="746" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">(</text>
+<path d="M 840 746 L 827 746" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="827,746 832.573,741.764 832.573,750.236" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="16" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;x&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;xx&quot;: &quot;っx&quot;, &quot;nx&quot;: &quot;んx&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="888" y="677" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">X</text>
+<path d="M 888 705 L 888 696" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,696 892.236,701.573 883.764,701.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="16" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;)&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="1005" y="746" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">)</text>
+<path d="M 936 746 L 949 746" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="949,746 943.427,750.236 943.427,741.764" fill="#fde68a"/>
+</g>
+<rect x="720" y="858" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="888" y="885" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：r</text>
+<rect x="843" y="958" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="888" y="996" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">R</text>
+<g data-source="godan-flick-hints.json" data-key-index="17" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;。&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="771" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">。</text>
+<path d="M 840 996 L 827 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="827,996 832.573,991.764 832.573,1000.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="17" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;？&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="888" y="927" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">？</text>
+<path d="M 888 955 L 888 946" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,946 892.236,951.573 883.764,951.573" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="17" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;！&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="1005" y="996" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">！</text>
+<path d="M 936 996 L 949 996" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="949,996 943.427,1000.24 943.427,991.764" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="17" data-direction="bottom">
+<desc>[{&quot;text&quot;: &quot;、&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="888" y="1064" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">、</text>
+<path d="M 888 1038 L 888 1048" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,1048 883.764,1042.43 892.236,1042.43" fill="#fde68a"/>
+</g>
+<rect x="720" y="1108" width="336" height="238" rx="16" fill="#1b273b"/>
+<text x="888" y="1135" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="400" fill="#c6d2e4">タップ：w</text>
+<rect x="843" y="1208" width="90" height="76" rx="12" fill="#34435b"/>
+<text x="888" y="1246" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="400" fill="#f8fafc">W</text>
+<g data-source="godan-flick-hints.json" data-key-index="18" data-direction="left">
+<desc>[{&quot;text&quot;: &quot;「&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="771" y="1246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">「</text>
+<path d="M 840 1246 L 827 1246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="827,1246 832.573,1241.76 832.573,1250.24" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="18" data-direction="top">
+<desc>[{&quot;text&quot;: &quot;v&quot;, &quot;type&quot;: &quot;input&quot;}, {&quot;table&quot;: {&quot;vv&quot;: &quot;っv&quot;, &quot;nv&quot;: &quot;んv&quot;}, &quot;type&quot;: &quot;replace_last_characters&quot;}]</desc>
+<text x="888" y="1177" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">V</text>
+<path d="M 888 1205 L 888 1196" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="888,1196 892.236,1201.57 883.764,1201.57" fill="#fde68a"/>
+</g>
+<g data-source="godan-flick-hints.json" data-key-index="18" data-direction="right">
+<desc>[{&quot;text&quot;: &quot;」&quot;, &quot;type&quot;: &quot;input&quot;}]</desc>
+<text x="1005" y="1246" text-anchor="middle" dominant-baseline="central" font-size="34" font-weight="400" fill="#fde68a">」</text>
+<path d="M 936 1246 L 949 1246" stroke="#fde68a" stroke-width="3" fill="none"/>
+<polygon points="949,1246 943.427,1250.24 943.427,1241.76" fill="#fde68a"/>
+</g>
+<text x="32" y="1374" text-anchor="start" dominant-baseline="central" font-size="21.3356" font-weight="400" fill="#c6d2e4">│はカーソル。図にない方向は未割当。数字・括弧ペアは画像配置版のみ。小゛゜は本体設定に従います。</text>
+</g>
+</svg>
