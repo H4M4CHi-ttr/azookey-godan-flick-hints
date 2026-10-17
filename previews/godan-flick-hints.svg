@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="792" viewBox="0 0 1080 792" role="img" aria-labelledby="title description">
 <title id="title">GODAN（ヒント付き）｜配置</title>
 <desc id="description">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</desc>
-<metadata>{&quot;godan-flick-hints.json&quot;: &quot;31afff76ef112c3d748604c2bbe4a0f650f10f6c46adb1133d70cf0c8fb74fae&quot;}</metadata>
+<metadata>{&quot;godan-flick-hints.json&quot;: &quot;0d03d2a60d05992962a17f4e6e566bad4b9b96f3be22b66a7bd1b56b7f0c6680&quot;}</metadata>
 <rect width="1080" height="792" rx="22" fill="#101827"/>
 <g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
 <text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（ヒント付き）｜配置</text>

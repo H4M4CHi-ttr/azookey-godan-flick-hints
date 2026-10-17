@@ -241,7 +241,7 @@ def letter_wheels(name, tab):
     ys = sorted({item['specifier']['y'] for _, item in items})
     height = 142 + len(ys) * 250
     d = Diagram(tab['metadata']['display_name'] + '｜文字の全フリック',
-                'キーの周りは実際の入力方向。子音＋母音で仮名に変換します。例：K → A で「か」',
+                '周囲がフリック先。子音＋母音で変換。例：K → A で「か」、W → H → O で「うぉ」。',
                 height, [name])
     for index, item in items:
         x = 24 + xs.index(item['specifier']['x']) * 348

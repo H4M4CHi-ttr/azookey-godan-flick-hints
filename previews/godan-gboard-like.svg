@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="792" viewBox="0 0 1080 792" role="img" aria-labelledby="title description">
 <title id="title">GODAN（画像配置）｜配置</title>
 <desc id="description">中央の文字＝タップ　小さな文字＝JSONにある表示ヒント　特殊操作は次の図へ</desc>
-<metadata>{&quot;godan-gboard-like.json&quot;: &quot;d54c3722039d9c55ae1ffa3c10bc63633afc21787ec0889d20da9fb3f844c10e&quot;}</metadata>
+<metadata>{&quot;godan-gboard-like.json&quot;: &quot;80a2326a4f49472892b13f4b5a7cf4f1ddf967bf6060c01cb8abedb5bf839458&quot;}</metadata>
 <rect width="1080" height="792" rx="22" fill="#101827"/>
 <g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif">
 <text x="32" y="42" text-anchor="start" dominant-baseline="central" font-size="32" font-weight="700" fill="#f8fafc">GODAN（画像配置）｜配置</text>
