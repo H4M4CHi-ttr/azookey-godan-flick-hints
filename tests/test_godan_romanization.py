@@ -22,19 +22,25 @@ class Keyboard:
     def __init__(self, tab):
         self.routes = letter_routes(tab)
         self.actions = {}
-        for key in self.routes.values():
-            for node in [key, *(v['key'] for v in key.get('variations', []))]:
-                compiled = []
-                for action in node['press_actions']:
-                    if action['type'] == 'input':
-                        compiled.append(('input', action['text']))
-                    elif action['type'] == 'replace_last_characters':
-                        table = action['table']
-                        lengths = sorted({len(source) for source in table}, reverse=True)
-                        compiled.append(('replace', (lengths, table)))
-                    else:
-                        raise ValueError(f'Unexpected character action: {action["type"]}')
-                self.actions[id(node)] = compiled
+        nodes = list(self.routes.values())
+        nodes += [
+            variation['key']
+            for vowel in 'aiueo'
+            for variation in self.routes[vowel]['variations']
+            if variation['direction'] in ('left', 'top', 'right')
+        ]
+        for node in nodes:
+            compiled = []
+            for action in node['press_actions']:
+                if action['type'] == 'input':
+                    compiled.append(('input', action['text']))
+                elif action['type'] == 'replace_last_characters':
+                    table = action['table']
+                    lengths = sorted({len(source) for source in table}, reverse=True)
+                    compiled.append(('replace', (lengths, table)))
+                else:
+                    raise ValueError(f'Unexpected character action: {action["type"]}')
+            self.actions[id(node)] = compiled
 
     def type(self, roman, direction=None, before='', after=''):
         text = before
