@@ -13,7 +13,8 @@ from pathlib import Path
 from test_godan_composition import GODAN_FILES, letter_routes
 
 ROOT = Path(__file__).resolve().parents[1]
-SYLLABLES = json.loads((ROOT / 'data/romaji-kana.json').read_text())['syllables']
+REFERENCE = json.loads((ROOT / 'data/romaji-kana.json').read_text())
+SYLLABLES = {**REFERENCE['syllables'], **REFERENCE['legacy_aliases']}
 
 
 class Keyboard:
@@ -68,12 +69,18 @@ class GodanRomanizationTests(unittest.TestCase):
             (ROOT / 'gboard-like-pair.json').read_text()
         )[0]
         cls.keyboards = {name: Keyboard(tab) for name, tab in tabs.items()}
+        cls.checked_cases = 0
+
+    @classmethod
+    def tearDownClass(cls):
+        print(f'GODAN reference checks: {cls.checked_cases}')
 
     def check_cases(self, cases):
         # Bound failure output without skipping any of the input cases.
         for name, keyboard in self.keyboards.items():
             failures = []
             for roman, expected, direction, before, after in cases:
+                type(self).checked_cases += 1
                 actual = keyboard.type(roman, direction, before, after)
                 if actual != expected and len(failures) < 12:
                     failures.append((roman, direction, expected, actual))
@@ -138,10 +145,33 @@ class GodanRomanizationTests(unittest.TestCase):
         ])
 
     def test_godan_shortcuts_and_inherited_typos(self):
+        shorthand_rows = {
+            'f': ('ふゃ', 'ふぃ', 'ふゅ', 'ふぇ', 'ふょ'),
+            'j': ('じゃ', 'じぃ', 'じゅ', 'じぇ', 'じょ'),
+            'l': ('ゃ', 'ぃ', 'ゅ', 'ぇ', 'ょ'),
+            'q': ('くゃ', 'くぃ', 'くゅ', 'くぇ', 'くょ'),
+            'v': ('ゔゃ', 'ゔぃ', 'ゔゅ', 'ゔぇ', 'ゔょ'),
+            'x': ('ゃ', 'ぃ', 'ゅ', 'ぇ', 'ょ'),
+            'k': ('きゃ', 'きぃ', 'きゅ', 'きぇ', 'きょ'),
+            'g': ('ぎゃ', 'ぎぃ', 'ぎゅ', 'ぎぇ', 'ぎょ'),
+            's': ('しゃ', 'しぃ', 'しゅ', 'しぇ', 'しょ'),
+            'z': ('じゃ', 'じぃ', 'じゅ', 'じぇ', 'じょ'),
+            't': ('ちゃ', 'ちぃ', 'ちゅ', 'ちぇ', 'ちょ'),
+            'd': ('ぢゃ', 'ぢぃ', 'ぢゅ', 'ぢぇ', 'ぢょ'),
+            'n': ('にゃ', 'にぃ', 'にゅ', 'にぇ', 'にょ'),
+            'h': ('ひゃ', 'ひぃ', 'ひゅ', 'ひぇ', 'ひょ'),
+            'b': ('びゃ', 'びぃ', 'びゅ', 'びぇ', 'びょ'),
+            'p': ('ぴゃ', 'ぴぃ', 'ぴゅ', 'ぴぇ', 'ぴょ'),
+            'm': ('みゃ', 'みぃ', 'みゅ', 'みぇ', 'みょ'),
+            'y': ('いゃ', 'いぃ', 'いゅ', 'いぇ', 'いょ'),
+            'r': ('りゃ', 'りぃ', 'りゅ', 'りぇ', 'りょ'),
+            'w': ('うゎ', 'うぃ', 'うぅ', 'うぇ', 'うぉ'),
+            'c': ('ちゃ', 'ちぃ', 'ちゅ', 'ちぇ', 'ちょ'),
+        }
         expected_right = {
-            'ka': 'きゃ', 'ki': 'きぃ', 'ku': 'きゅ', 'ke': 'きぇ', 'ko': 'きょ',
-            'wa': 'うゎ', 'wi': 'うぃ', 'wu': 'うぅ', 'we': 'うぇ', 'wo': 'うぉ',
-            'ca': 'ちゃ', 'ci': 'ちぃ', 'cu': 'ちゅ', 'ce': 'ちぇ', 'co': 'ちょ',
+            prefix + vowel: kana
+            for prefix, values in shorthand_rows.items()
+            for vowel, kana in zip('aiueo', values)
         }
         cases = [
             (roman, kana, 'right', '', '') for roman, kana in expected_right.items()
