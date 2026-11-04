@@ -298,5 +298,10 @@
     "zyi": "じぃ",
     "zyo": "じょ",
     "zyu": "じゅ"
-  }
+  },
+  "legacy_aliases": {
+    "fyi": "ふぃ",
+    "fye": "ふぇ"
+  },
+  "legacy_source": "https://github.com/azooKey/azooKey-site/blob/01a4779becc21cabbcb6532c2c8908616dad5817/public/static/custard/godan.json"
 }
