@@ -23,7 +23,7 @@ class Keyboard:
         self.routes = letter_routes(tab)
         self.actions = {}
         for key in self.routes.values():
-            for node in [key, *(v['key'] for v in key['variations'])]:
+            for node in [key, *(v['key'] for v in key.get('variations', []))]:
                 compiled = []
                 for action in node['press_actions']:
                     if action['type'] == 'input':
@@ -125,7 +125,7 @@ class GodanRomanizationTests(unittest.TestCase):
             'xn': 'ん', 'tcha': 'っちゃ', 'tchi': 'っち', 'tchu': 'っちゅ',
             'tche': 'っちぇ', 'tcho': 'っちょ', 'matcha': 'まっちゃ',
             'ttwu': 'っとぅ', 'ndwu': 'んどぅ', 'nnkwa': 'んくぁ',
-            'konnnichiwa': 'こんにちは',
+            'konnnichiha': 'こんにちは',
         }
         self.check_cases([
             (roman, kana, None, '', '') for roman, kana in expected.items()
